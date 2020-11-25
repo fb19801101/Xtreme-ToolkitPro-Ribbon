@@ -1,0 +1,2990 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\RibbonReport.ico"
+IDI_DOCTYPE             ICON                    "res\\RibbonReportDoc.ico"
+IDI_KEY                 ICON                    "res\\Key.ico"
+IDI_SELECT              ICON                    "res\\Select.ico"
+IDI_TRAYGRAY            ICON                    "res\\traygray.ico"
+IDI_TRAYTRUE            ICON                    "res\\traytrue.ico"
+IDI_TRAYFALE            ICON                    "res\\trayfale.ico"
+ID_MESSAGEBAR_WARNING   ICON                    "res\\Warning.ico"
+ID_GROUP_BUTTONPOPUP    ICON                    "res\\GroupPopup.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDP_METHOD              PNG                     "res\\Method.png"
+IDP_SHELL               PNG                     "res\\Shell.png"
+IDP_BACKSTAGE           PNG                     "res\\Backstage.png"
+IDP_COSTMGR             PNG                     "res\\Costmgr.png"
+IDP_CRTSMGR_SLAB        PNG                     "res\\CtrsmgrSlab.png"
+IDP_DATASET             PNG                     "res\\Dataset.png"
+IDP_EXPLOR              PNG                     "res\\Explor.png"
+IDP_MATERMGR            PNG                     "res\\Matermgr.png"
+IDP_FINANCEMGR          PNG                     "res\\Financemgr.png"
+IDP_OPTIONSICON_GENERAL PNG                     "res\\OptionsIconGeneral.png"
+IDP_OPTIONSICON_QUICKACCESS PNG                     "res\\OptionsIconQuickAccess.png"
+IDP_POINTSMGR           PNG                     "res\\Pointsmgr.png"
+IDP_BUDGETMGR           PNG                     "res\\Budgetmgr.png"
+IDP_PROBLEMMGR          PNG                     "res\\Problemmgr.png"
+IDP_PROGRAM             PNG                     "res\\Program.png"
+IDP_REPORTMGR           PNG                     "res\\Reportmgr.png"
+IDP_RIBBON_GROUPS       PNG                     "res\\RibbonGroups.png"
+IDP_RIBBON_GEAR         PNG                     "res\\RibbonGear.png"
+IDP_RIBBON_MINIMIZE     PNG                     "res\\RibbonMinimize.png"
+IDP_SYSTEMMENULARGE     PNG                     "res\\SystemMenuLarge.png"
+IDP_TOOLTIP_GROUPOPTION PNG                     "res\\ToolTipGroupOption.png"
+IDP_TOOLTIP_REPORT      PNG                     "res\\ToolTipReport.png"
+IDP_USERMGR             PNG                     "res\\Usermgr.png"
+IDP_LARGEICONS          PNG                     "res\\LargeIcons.png"
+IDD_BACKSTAGEPAGE_HELP  PNG                     "res\\BackstagePageHelp.png"
+IDD_BACKSTAGEPAGE_SAVE  PNG                     "res\\BackstagePageSave.png"
+ID_FONT_BORDERS         PNG                     "res\\FontBorders.png"
+ID_GALLERY_CONDITION_ICONLIST PNG                     "res\\GalleryConditionIconList.png"
+ID_GALLERY_NUMBER       PNG                     "res\\GalleryNumber.png"
+ID_GALLERY_CONDITION_HIGHLIGHT PNG                     "res\\GalleryStylesCondition.png"
+ID_GALLERY_STYLES_FORMAT PNG                     "res\\GalleryStylesFormat.png"
+ID_GALLERY_STYLES_CELL  PNG                     "res\\GalleryStylesCell.png"
+ID_GALLERY_SHAPES       PNG                     "res\\GalleryShapes.png"
+ID_GROUP_ALIGNMENT      PNG                     "res\\GroupAlignment.png"
+ID_GROUP_CELL           PNG                     "res\\GroupCell.png"
+ID_GROUP_DATABASE       PNG                     "res\\GroupDatabase.png"
+ID_GROUP_CLIPBOARD      PNG                     "res\\GroupClipboard.png"
+ID_GROUP_FONT           PNG                     "res\\GroupFont.png"
+ID_GROUP_MODIFY         PNG                     "res\\GroupModify.png"
+ID_GROUP_NUMBER         PNG                     "res\\GroupNumber.png"
+ID_GROUP_STYLES         PNG                     "res\\GroupStyles.png"
+ID_ZXING_FORMAT         PNG                     "res\\Zxing.png"
+ID_POINTSMGR_TABLE      PNG                     "res\\PointsmgrTable.png"
+ID_COSTMGR_TABLE        PNG                     "res\\CostmgrTable.png"
+ID_BUDGETMGR_TABLE      PNG                     "res\\BudgetmgrTable.png"
+ID_MATERMGR_TABLE       PNG                     "res\\MatermgrTable.png"
+ID_FINANCEMGR_TABLE     PNG                     "res\\FinancemgrTable.png"
+IDC_INFO_CK_ISSUE       PNG                     "res\\CheckForIssues.png"
+IDC_INFO_BN_MANAGEVERSIONS PNG                     "res\\ManageVersions.png"
+IDC_INFO_BN_PROTECTDOCUMENT PNG                     "res\\ProtectDocument.png"
+IDC_PRINT_BN_PRINT      PNG                     "res\\Print.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\ToolBar.bmp"
+IDB_CRCC                BITMAP                  "res\\Crcc.bmp"
+IDB_TASKLIST            BITMAP                  "res\\TaskList.bmp"
+IDB_CONSTRAINTS         BITMAP                  "res\\Constraints.bmp"
+IDB_FILTER              BITMAP                  "res\\Filter.bmp"
+IDB_PANE_ICONS          BITMAP                  "res\\PaneIcons.bmp"
+IDR_PANE_RIBBON         BITMAP                  "res\\PaneRibbon.bmp"
+IDR_PANE_PROPERTIES     BITMAP                  "res\\PaneProperties.bmp"
+IDB_WATERMARK           BITMAP                  "res\\watermark.bmp"
+IDB_SCREEN_PREVIEW      BITMAP                  "res\\ScreenPreview.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_MOVE         CURSOR                  "res/Move.cur"
+IDC_CURSOR_HRESIZE      CURSOR                  "res/HResize.cur"
+IDC_CURSOR_VRESIZE      CURSOR                  "res/VResize.cur"
+IDC_CURSOR_DRESIZE      CURSOR                  "res/DResize.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "保存(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",                  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...",                   ID_FILE_PRINT
+        MENUITEM "打印预览",                        ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置...",                     ID_FILE_PRINT_SETUP
+        MENUITEM "准备(&E)",                      ID_FILE_PREPARE
+        MENUITEM "发送(&D)",                      ID_FILE_SEND
+        MENUITEM "发布(&U)",                      ID_FILE_PREPARE
+        MENUITEM SEPARATOR
+        MENUITEM "数据(&D)",                      ID_FILE_DATA
+        MENUITEM "最近使用的文档",                     ID_FILE_RECENTDOCUMENTS, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "重复(&R)\tCtrl+R",              ID_EDIT_REDO
+        MENUITEM "撤销(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "全选(&L)\tCtrl+A",              ID_EDIT_SELECT_ALL
+    END
+    POPUP "功能(&M)"
+    BEGIN
+        MENUITEM "开始面板(&H)\tCtrl+0",            ID_METHOD_HOME
+        MENUITEM "系统工具(&S)\tCtrl+1",            ID_METHOD_SYSTEM
+        MENUITEM SEPARATOR
+        MENUITEM "工点管理(&P)\tCtrl+2",            ID_METHOD_POINTSMGR
+        MENUITEM "成本管理(&O)\tCtrl+3",            ID_METHOD_COSTMGR
+        MENUITEM "物资管理(&M)\tCtrl+4",            ID_METHOD_MATERMGR
+        MENUITEM SEPARATOR
+        MENUITEM "财务管理(&F)\tCtrl+5",            ID_METHOD_FINANCEMGR
+        MENUITEM SEPARATOR
+        MENUITEM "无砟轨道(&C)\tCtrl+6",            ID_METHOD_CRTSMGR
+        MENUITEM "克缺整治(&R)\tCtrl+7",            ID_METHOD_PROBLEMMGR
+        MENUITEM SEPARATOR
+        MENUITEM "拉动生产(&U)\tCtrl+8",            ID_METHOD_PULLWORKMGR
+        MENUITEM SEPARATOR
+        MENUITEM "资源管理(&E)\tCtrl+9",            ID_METHOD_EXPLOR
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "表格设置",                        ID_METHOD_REPORT
+        MENUITEM "任务计划",                        ID_METHOD_TASKTRACK
+        MENUITEM SEPARATOR
+        MENUITEM "导入数据",                        ID_FILE_IMPORT
+        MENUITEM "导出数据",                        ID_FILE_EXPORT
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "注册",                          ID_HELP_REG
+        MENUITEM "主页",                          ID_HELP_NET
+        MENUITEM SEPARATOR
+        MENUITEM "关于(&A)...",                   ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_MINITOOLBAR MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "保存(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",                  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "打印预览(&V)",                    ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置(&R)...",                 ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "导入(&I)\tCtrl+I",              ID_FILE_IMPORT
+        MENUITEM "导出(&E)\tCtrl+E",              ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "最近使用的文档",                     ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    MENUITEM SEPARATOR
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤销(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "全选(&L)\tCtrl+A",              ID_EDIT_SELECT_ALL
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A)...",                   ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_MERGE MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "打印...",                       ID_FILE_PRINT
+        MENUITEM "打印预览",                        ID_FILE_PRINT_PREVIEW
+        MENUITEM "页面设置...",                     ID_FILE_PAGE_SETUP
+        MENUITEM "打印设置...",                     ID_FILE_PRINT_SETUP
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Allow edit",                  ID_REPORT_ALLOWEDIT
+            MENUITEM "Edit on click",               ID_REPORT_EDITONCLICK
+            MENUITEM "Edit on delay click",         ID_REPORT_EDITONDELAYCLICK
+            MENUITEM "Edit on double click",        ID_REPORT_EDITONDOUBLECLICK
+        END
+        MENUITEM "Auto sizing",                 ID_REPORT_COLUMN_AUTOSIZING
+        MENUITEM "Focus sub items",             ID_REPORT_FOCUS_SUBITEMS
+        MENUITEM "Watermark",                   ID_REPORT_WATERMARK
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏",                         ID_VIEW_TOOLBAR
+        MENUITEM "状态栏",                         ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于...",                       ID_APP_ABOUT
+    END
+END
+
+IDR_CONTENT_CHART_STYLE MENU
+BEGIN
+    POPUP "Chart Style"
+    BEGIN
+        MENUITEM "Multiple Diagrams",           ID_CHART_STYLE_DIAGRAMS
+        MENUITEM "Chart From File",             ID_CHART_STYLE_FILE
+        MENUITEM SEPARATOR
+        MENUITEM "Bar",                         ID_CHART_STYLE_BAR
+        MENUITEM "StackedBar",                  ID_CHART_STYLE_STACKEDBAR
+        MENUITEM "SideStackedBar",              ID_CHART_STYLE_SIDEBAR
+        MENUITEM SEPARATOR
+        MENUITEM "Scatter",                     ID_CHART_STYLE_SCATTER
+        MENUITEM "Bubble",                      ID_CHART_STYLE_BUBBLE
+        MENUITEM SEPARATOR
+        MENUITEM "Line",                        ID_CHART_STYLE_LINE
+        MENUITEM "StepLine",                    ID_CHART_STYLE_STEPLINE
+        MENUITEM "FastLine",                    ID_CHART_STYLE_FASTLINE
+        MENUITEM SEPARATOR
+        MENUITEM "Pie",                         ID_CHART_STYLE_PIE
+    END
+END
+
+IDR_CONTENT_TRAYICON MENU
+BEGIN
+    POPUP "RClickTrayIcon"
+    BEGIN
+        MENUITEM "设置(&P)\tCtrl+P",              ID_TRAYICON_SHOWDLG
+        MENUITEM SEPARATOR
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)\tCtrl+O",              ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "风格",                          ID_THEME_SKIN
+        MENUITEM "样式",                          ID_THEME_STYLE
+        MENUITEM "字体",                          ID_METHOD_FONT
+        MENUITEM SEPARATOR
+        MENUITEM "左右转置",                        ID_OPTIONS_RIGHTTOLEFT
+        MENUITEM "动画效果",                        ID_OPTIONS_ANIMATION
+        MENUITEM "框架样式",                        ID_OPTIONS_FRAMETHEME
+        MENUITEM SEPARATOR
+        MENUITEM "表格设置",                        ID_METHOD_REPORT
+        MENUITEM "任务计划",                        ID_METHOD_TASKTRACK
+        MENUITEM SEPARATOR
+        MENUITEM "排列图标",                        ID_METHOD_SHELL
+        MENUITEM SEPARATOR
+        MENUITEM "导入(&I)\tCtrl+N",              ID_FILE_IMPORT
+        MENUITEM "导出(&Ex)\tCtrl+O",             ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+END
+
+IDR_CONTENT_TASKTRACK MENU
+BEGIN
+    POPUP "空表头"
+    BEGIN
+        MENUITEM "添加标记",                        ID_HEADER_ADDMARKER
+    END
+    POPUP "标记表头"
+    BEGIN
+        MENUITEM "删除当前标记",                      ID_HEADER_REMOVEMARKER
+        MENUITEM "删除所欲标记",                      ID_HEADER_DELETEALLMARKERS
+    END
+    POPUP "块"
+    BEGIN
+        MENUITEM "锁定块",                         ID_BLOCK_LOCKBLOCK
+        MENUITEM "删除块",                         ID_BLOCK_REMOVEBLOCK
+        MENUITEM SEPARATOR
+        POPUP "设置层级"
+        BEGIN
+            MENUITEM "关键线路",                        ID_BLOCK_KEYROAD
+            MENUITEM SEPARATOR
+            MENUITEM "关键工序",                        ID_BLOCK_WORK_KEY
+            MENUITEM "普通工序",                        ID_BLOCK_WORK_COMMON
+            MENUITEM "虚拟工序",                        ID_BLOCK_WORK_VIRTUAL
+            MENUITEM "自由工序",                        ID_BLOCK_WORK_FREE
+            MENUITEM "其他工序",                        ID_BLOCK_WORK_OTHER
+        END
+        MENUITEM "锁定跟踪",                        ID_BLOCK_LOCKTRACK
+    END
+    POPUP "项"
+    BEGIN
+        MENUITEM "添加块",                         ID_BLOCK_ADDBLOCK
+        MENUITEM "锁定跟踪",                        ID_BLOCK_LOCKTRACK
+        MENUITEM SEPARATOR
+        MENUITEM "清除数据",                        ID_BLOCK_CLEAR
+        MENUITEM SEPARATOR
+        POPUP "任务计划"
+        BEGIN
+            MENUITEM "显示分组",                        ID_TASKTRACK_GROUPBOX
+            MENUITEM "允许调整行",                       ID_TASKTRACK_ALLOWROWRESIZE
+            MENUITEM "时间轴属性",                       ID_TASKTRACK_TIMEOFFSET
+            MENUITEM "状态调整",                        ID_TASKTRACK_SCALEONRESIZE
+            MENUITEM SEPARATOR
+            MENUITEM "自由拖拽",                        ID_TASKTRACK_FLEXIBLEDRAG
+            MENUITEM "经典样式",                        ID_TASKTRACK_CLASSICSTYLE
+            MENUITEM "显示工作区域",                      ID_TASKTRACK_SHOWWORKAREA
+            MENUITEM SEPARATOR
+            MENUITEM "对齐标记",                        ID_TASKTRACK_SNAPTOMARKERS
+            MENUITEM "对齐块",                         ID_TASKTRACK_SNAPTOBLOCKS
+            MENUITEM SEPARATOR
+            MENUITEM "允许块删除",                       ID_TASKTRACK_ALLOWBLOCKREMOVE
+            MENUITEM "允许块移动",                       ID_TASKTRACK_ALLOWBLOCKMOVE
+            MENUITEM "允许块状态",                       ID_TASKTRACK_ALLOWBLOCKSCALE
+        END
+    END
+END
+
+IDR_CONTENT_TREEPANE MENU
+BEGIN
+    POPUP "Root"
+    BEGIN
+        MENUITEM "Insert Category",             ID_PANE_TREE_ROOT_INSERT
+    END
+    POPUP "Category"
+    BEGIN
+        MENUITEM "Insert Category",             ID_PANE_TREE_CATEGORY_ADD
+        MENUITEM "Delete Category",             ID_PANE_TREE_CATEGORY_DEL
+        MENUITEM "Add Action",                  ID_PANE_TREE_ITEM_ADD
+    END
+    POPUP "Action"
+    BEGIN
+        MENUITEM "Delete Action",               ID_PANE_TREE_ITEM_DEL
+    END
+END
+
+ID_APP_OPTIONS MENU
+BEGIN
+    POPUP "选项"
+    BEGIN
+        MENUITEM "样式",                          ID_THEME_STYLE
+        MENUITEM "字体",                          ID_METHOD_FONT
+        MENUITEM SEPARATOR
+        MENUITEM "左右转置",                        ID_OPTIONS_RIGHTTOLEFT
+        MENUITEM "动画效果",                        ID_OPTIONS_ANIMATION
+        MENUITEM "框架样式",                        ID_OPTIONS_FRAMETHEME
+        MENUITEM SEPARATOR
+        MENUITEM "表格设置",                        ID_METHOD_REPORT
+        MENUITEM "任务计划",                        ID_METHOD_TASKTRACK
+        MENUITEM SEPARATOR
+        MENUITEM "排列图标",                        ID_METHOD_SHELL
+    END
+END
+
+ID_APP_PANEL MENU
+BEGIN
+    POPUP "属性"
+    BEGIN
+        MENUITEM "属性",                          IDR_PANE_PROPERTIES
+        MENUITEM SEPARATOR
+        MENUITEM "控件树",                         IDR_PANE_RIBBON
+        MENUITEM SEPARATOR
+        MENUITEM "工点树",                         IDR_PANE_PARTITEM
+        MENUITEM "系统树",                         IDR_PANE_PARTTYPE
+        MENUITEM "概算树",                         IDR_PANE_BUDGET
+    END
+END
+
+ID_APP_HELP MENU
+BEGIN
+    POPUP "帮助"
+    BEGIN
+        MENUITEM "帮助",                          ID_HELP_HELP
+        MENUITEM "注册",                          ID_HELP_REG
+        MENUITEM "主页",                          ID_HELP_NET
+        MENUITEM SEPARATOR
+        MENUITEM "关于(&A)...",                   ID_APP_ABOUT
+    END
+END
+
+ID_METHOD_REPORT MENU
+BEGIN
+    POPUP "Report Style"
+    BEGIN
+        POPUP "Report &Control"
+        BEGIN
+            MENUITEM "Toggle Group By box",         ID_REPORT_GROUP_SHOWBOX
+            MENUITEM "&Toggle Preview Mode",        ID_REPORT_ENABLE_PREVIEW
+            MENUITEM "&Multiple Selection",         ID_REPORT_MULTIPLE_SELECTION
+            MENUITEM "Right To Left",               ID_REPORT_RIGHTTOLEFT
+            MENUITEM "Show Markup Sample",          ID_REPORT_MARKUP
+            MENUITEM "Show Watermark",              ID_REPORT_WATERMARK
+            MENUITEM SEPARATOR
+            POPUP "Freeze columns"
+            BEGIN
+                MENUITEM "None (0)",                    ID_REPORT_FREEZECOLUMNS_0
+                MENUITEM "1",                           ID_REPORT_FREEZECOLUMNS_1
+                MENUITEM "2",                           ID_REPORT_FREEZECOLUMNS_2
+                MENUITEM "3",                           ID_REPORT_FREEZECOLUMNS_3
+            END
+            POPUP "Freeze columns divider"
+            BEGIN
+                MENUITEM "None",                        ID_REPORT_FREEZECOLUMNS_DIVIDER_NONE
+                MENUITEM "Thin",                        ID_REPORT_FREEZECOLUMNS_DIVIDER_THIN
+                MENUITEM "Bold",                        ID_REPORT_FREEZECOLUMNS_DIVIDER_BOLD
+                MENUITEM "Shade",                       ID_REPORT_FREEZECOLUMNS_DIVIDER_SHADE
+                MENUITEM SEPARATOR
+                MENUITEM "Header",                      ID_REPORT_FREEZECOLUMNS_DIVIDER_HEADER
+            END
+        END
+        POPUP "&Report Item"
+        BEGIN
+            MENUITEM "Allow Edit",                  ID_REPORT_ALLOWEDIT
+            MENUITEM "Edit On Click",               ID_REPORT_EDITONCLICK
+            MENUITEM "Focus Sub Items",             ID_REPORT_FOCUS_SUBITEMS
+            MENUITEM "Focus All Items",             ID_REPORT_FOCUS_ALLITEMS
+        END
+        POPUP "Report &Header"
+        BEGIN
+            MENUITEM "&Allow Columns Remove",       ID_REPORT_ALLOW_COLUMNS_REMOVE
+            MENUITEM "A&llow Column Resize",        ID_REPORT_ALLOW_COLUMN_RESIZE
+            MENUITEM "Allow Column Reorder",        ID_REPORT_ALLOW_COLUMN_REORDER
+            MENUITEM SEPARATOR
+            MENUITEM "Automat&ic column sizing",    ID_REPORT_AUTOMATIC_COLUMNSIZING
+            MENUITEM "Automat&ic column bestfit",   ID_REPORT_AUTOMATIC_COLUMNBESTFIT
+            MENUITEM "Full column scroling",        ID_REPORT_FULL_COLUMN_SCROLING
+            MENUITEM "A&utomatically group according to arragement", ID_REPORT_AUTO_GROUPS
+        END
+        POPUP "Report &Paint Manager"
+        BEGIN
+            POPUP "Grid Line Style"
+            BEGIN
+                POPUP "&Horizontal"
+                BEGIN
+                    MENUITEM "No Grid Lines",               ID_REPORT_HORIZONTAL_NOGRIDLINES
+                    MENUITEM "Small Dots",                  ID_REPORT_HORIZONTAL_SMALLDOTS
+                    MENUITEM "Large Dots",                  ID_REPORT_HORIZONTAL_LARGEDOTS
+                    MENUITEM "Dashes",                      ID_REPORT_HORIZONTAL_DASHES
+                    MENUITEM "Solid",                       ID_REPORT_HORIZONTAL_SOLID
+                END
+                POPUP "&Vertical"
+                BEGIN
+                    MENUITEM "No Grid Lines",               ID_REPORT_VERTICAL_NOGRIDLINES
+                    MENUITEM "Small Dots",                  ID_REPORT_VERTICAL_SMALLDOTS
+                    MENUITEM "Large Dots",                  ID_REPORT_VERTICAL_LARGEDOTS
+                    MENUITEM "Dashes",                      ID_REPORT_VERTICAL_DASHES
+                    MENUITEM "Solid",                       ID_REPORT_VERTICAL_SOLID
+                END
+            END
+            POPUP "Column Style"
+            BEGIN
+                MENUITEM "Shaded",                      ID_REPORT_COLUMNSTYLE_SHADED
+                MENUITEM "Flat",                        ID_REPORT_COLUMNSTYLE_FLAT
+                MENUITEM "Explorer",                    ID_REPORT_COLUMNSTYLE_EXPLORER
+                MENUITEM "Office 2003",                 ID_REPORT_COLUMNSTYLE_OFFICE2003
+                MENUITEM "Office 2007",                 ID_REPORT_COLUMNSTYLE_OFFICE2007
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "Shade group headings",        ID_REPORT_GROUPSHADE
+            MENUITEM "Bold group rows",             ID_REPORT_GROUPSBOLD
+            MENUITEM "Show items in groups",        ID_REPORT_SHOWITEMSINGROUPS
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Automatic formatting",        ID_REPORT_AUTOMATIC_FORMATTING
+        MENUITEM "Multiline",                   ID_REPORT_MULTILINE
+        MENUITEM SEPARATOR
+        MENUITEM "Test FindRecordItem",         ID_REPORT_FIND_RECORDITEM
+        MENUITEM "&Filter Edit",                ID_REPORT_FILTEREDIT
+        MENUITEM "Field &SubList",              ID_REPORT_SUBLIST
+        MENUITEM "Icon View",                   ID_REPORT_ICONVIEW
+        MENUITEM "WYSIWYG Print Mode",          ID_REPORT_WYSIWYG_PRINT
+        MENUITEM SEPARATOR
+        POPUP "&Control Test"
+        BEGIN
+            MENUITEM "Perfomance Test",             ID_REPORT_PERFOMANCE
+            MENUITEM "Properties Test",             ID_REPORT_PROPERTIES
+            MENUITEM "Tree edit Test",              ID_REPORT_TREEEDIT
+            MENUITEM SEPARATOR
+            MENUITEM "Item Merge Test",             ID_REPORT_MERGE
+            MENUITEM "Item formla Test",            ID_REPORT_FORMULA
+            MENUITEM "Item drag drop Test",         ID_REPORT_DRAGDROP
+        END
+    END
+END
+
+ID_METHOD_TASKTRACK MENU
+BEGIN
+    POPUP "任务计划"
+    BEGIN
+        MENUITEM "显示分组",                        ID_TASKTRACK_GROUPBOX
+        MENUITEM "允许调整行",                       ID_TASKTRACK_ALLOWROWRESIZE
+        MENUITEM "时间轴属性",                       ID_TASKTRACK_TIMEOFFSET
+        MENUITEM "状态调整",                        ID_TASKTRACK_SCALEONRESIZE
+        MENUITEM SEPARATOR
+        MENUITEM "自由拖拽",                        ID_TASKTRACK_FLEXIBLEDRAG
+        MENUITEM "经典样式",                        ID_TASKTRACK_CLASSICSTYLE
+        MENUITEM "显示工作区域",                      ID_TASKTRACK_SHOWWORKAREA
+        MENUITEM SEPARATOR
+        MENUITEM "对齐标记",                        ID_TASKTRACK_SNAPTOMARKERS
+        MENUITEM "对齐块",                         ID_TASKTRACK_SNAPTOBLOCKS
+        MENUITEM SEPARATOR
+        MENUITEM "允许块删除",                       ID_TASKTRACK_ALLOWBLOCKREMOVE
+        MENUITEM "允许块移动",                       ID_TASKTRACK_ALLOWBLOCKMOVE
+        MENUITEM "允许块状态",                       ID_TASKTRACK_ALLOWBLOCKSCALE
+    END
+END
+
+ID_METHOD_SHELL MENU
+BEGIN
+    POPUP "排列图标"
+    BEGIN
+        MENUITEM "大图标",                         ID_SHELL_STYLE_ICON
+        MENUITEM "小图标",                         ID_SHELL_STYLE_SMALLICON
+        MENUITEM "列表",                          ID_SHELL_STYLE_LIST
+        MENUITEM "详细信息",                        ID_SHELL_STYLE_REPORT
+        MENUITEM SEPARATOR
+        MENUITEM "名称",                          ID_SHELL_SORT_NAME
+        MENUITEM "类型",                          ID_SHELL_SORT_TYPE
+        MENUITEM "大小",                          ID_SHELL_SORT_SIZE
+        MENUITEM "日期",                          ID_SHELL_SORT_DATE
+    END
+END
+
+ID_METHOD_FONT MENU
+BEGIN
+    POPUP "字体"
+    BEGIN
+        MENUITEM "系统默认",                        ID_OPTIONS_FONT_SYSTEM
+        MENUITEM SEPARATOR
+        MENUITEM "正常",                          ID_OPTIONS_FONT_NORMAL
+        MENUITEM "大字体",                         ID_OPTIONS_FONT_LARGE
+        MENUITEM "特大字体",                        ID_OPTIONS_FONT_EXTRALARGE
+        MENUITEM SEPARATOR
+        MENUITEM "自动图标大小",                      ID_OPTIONS_FONT_AUTORESIZEICONS
+    END
+END
+
+ID_METHOD_HOME MENU
+BEGIN
+    POPUP "开始面板"
+    BEGIN
+        MENUITEM "数据库",                         ID_DATABASE_TABLE
+        MENUITEM SEPARATOR
+        POPUP "字体"
+        BEGIN
+            MENUITEM "粗体",                          ID_FONT_BOLD
+            MENUITEM "斜体",                          ID_FONT_ITALIC
+            MENUITEM "下划线",                         ID_FONT_UNDERLINE
+        END
+        POPUP "对齐"
+        BEGIN
+            MENUITEM "靠左",                          ID_ALIGNMENT_LEFT
+            MENUITEM "居中",                          ID_ALIGNMENT_CENTER
+            MENUITEM "靠右",                          ID_ALIGNMENT_RIGHT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "网格",                          ID_FONT_BORDERS
+    END
+END
+
+ID_METHOD_SYSTEM MENU
+BEGIN
+    POPUP "系统管理"
+    BEGIN
+        MENUITEM "数据库",                         ID_DATASET_DATBACKUP
+        MENUITEM "用户设置",                        ID_USERMGR_REGUSER
+        MENUITEM SEPARATOR
+        MENUITEM "系统工具",                        ID_PROGRAM_SYSTEM
+    END
+END
+
+ID_METHOD_POINTSMGR MENU
+BEGIN
+    POPUP "系统管理"
+    BEGIN
+        MENUITEM "工点表",                         ID_POINTSMGR_POINTS
+        MENUITEM "计量台账",                        ID_POINTSMGR_LEDGER
+        MENUITEM SEPARATOR
+        MENUITEM "工程类别",                        ID_POINTSMGR_TABLE
+    END
+END
+
+ID_METHOD_COSTMGR MENU
+BEGIN
+    POPUP "成本管理"
+    BEGIN
+        MENUITEM "成本控制",                        ID_COSTMGR_TABLE
+        MENUITEM "基础数据",                        ID_COSTMGR_DAT
+        MENUITEM SEPARATOR
+        MENUITEM "分类汇总",                        ID_COSTMGR_SUM
+        MENUITEM "分类总计",                        ID_COSTMGR_ALL
+    END
+END
+
+ID_METHOD_MATERMGR MENU
+BEGIN
+    POPUP "物资管理"
+    BEGIN
+        MENUITEM "物资管理",                        ID_MATERMGR_TABLE
+        MENUITEM SEPARATOR
+        MENUITEM "库存盘点",                        ID_MATERMGR_STOCK
+        MENUITEM "库存统计",                        ID_MATERMGR_CHECK
+    END
+END
+
+ID_METHOD_FINANCEMGR MENU
+BEGIN
+    POPUP "财务管理"
+    BEGIN
+        MENUITEM "财务管理",                        ID_FINANCEMGR_TABLE
+        MENUITEM SEPARATOR
+        MENUITEM "收支统计",                        ID_FINANCEMGR_MGE
+        MENUITEM "收支汇总",                        ID_FINANCEMGR_SUM
+        MENUITEM SEPARATOR
+        MENUITEM "分析图表",                        ID_FINANCEMGR_RATE
+        MENUITEM "借贷计算",                        ID_FINANCEMGR_LOAN
+    END
+END
+
+ID_METHOD_CRTSMGR MENU
+BEGIN
+    POPUP "无砟轨道"
+    BEGIN
+        MENUITEM "基础数据",                        ID_CRTSMGR_SLAB_DAT
+        MENUITEM SEPARATOR
+        MENUITEM "分类汇总",                        ID_CRTSMGR_SLAB_SUM
+        MENUITEM "分段总计",                        ID_CRTSMGR_SLAB_ALL
+        MENUITEM "分段统计",                        ID_CRTSMGR_SLAB_CNT
+        MENUITEM SEPARATOR
+        MENUITEM "线路横向偏差",                      ID_CRTSMGR_SLAB_HORIZON
+        MENUITEM "线路高程偏差",                      ID_CRTSMGR_SLAB_VERTICAL
+        MENUITEM "线路里程偏差",                      ID_CRTSMGR_SLAB_MILEAGE
+        MENUITEM "板内平顺性",                       ID_CRTSMGR_SLAB_RIDE_IN
+        MENUITEM "板间平顺性",                       ID_CRTSMGR_SLAB_RIDE_OUT
+        MENUITEM "数据偏差率",                       ID_CRTSMGR_SLAB_RATE
+        MENUITEM SEPARATOR
+        MENUITEM "合并数据",                        ID_CRTSMGR_RAIL_MGE
+        MENUITEM "计算数据",                        ID_CRTSMGR_RAIL_CAL
+        MENUITEM SEPARATOR
+        MENUITEM "布板数据",                        ID_CRTSMGR_RAIL_PLATE
+        MENUITEM "精调数据",                        ID_CRTSMGR_RAIL_ADJUST
+        MENUITEM SEPARATOR
+        MENUITEM "精调汇总",                        ID_CRTSMGR_RAIL_ALL
+        MENUITEM "挡块统计",                        ID_CRTSMGR_RAIL_WFP
+        MENUITEM "垫片统计",                        ID_CRTSMGR_RAIL_ZW6
+        MENUITEM SEPARATOR
+        MENUITEM "轨道平顺性",                       ID_CRTSMGR_RAIL_RIDE
+        MENUITEM "轨道调整值",                       ID_CRTSMGR_RAIL_RATE
+    END
+END
+
+ID_METHOD_PROBLEMMGR MENU
+BEGIN
+    POPUP "克缺整治"
+    BEGIN
+        MENUITEM "基础数据",                        ID_PROBLEMMGR_DAT
+        MENUITEM "分类统计",                        ID_PROBLEMMGR_SUM
+        MENUITEM "总体统计",                        ID_PROBLEMMGR_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "路基问题",                        ID_PROBLEMMGR_ROAD
+        MENUITEM "桥梁问题",                        ID_PROBLEMMGR_BRIDGE
+        MENUITEM "隧道问题",                        ID_PROBLEMMGR_TUNNEL
+        MENUITEM SEPARATOR
+        MENUITEM "轨道问题",                        ID_PROBLEMMGR_ORBITAL
+        MENUITEM "声屏问题",                        ID_PROBLEMMGR_BARRIER
+        MENUITEM SEPARATOR
+        MENUITEM "接地问题",                        ID_PROBLEMMGR_GROUD
+        MENUITEM "精测问题",                        ID_PROBLEMMGR_MEASURE
+        MENUITEM SEPARATOR
+        MENUITEM "分类汇总",                        ID_PROBLEMMGR_SUM_
+        MENUITEM "总体汇总",                        ID_PROBLEMMGR_ALL_
+        MENUITEM "数据图表",                        ID_PROBLEMMGR_CRT
+    END
+END
+
+ID_METHOD_PULLWORKMGR MENU
+BEGIN
+    POPUP "拉动生产"
+    BEGIN
+        MENUITEM "计量控制",                        ID_BUDGETMGR_TABLE
+        MENUITEM SEPARATOR
+        MENUITEM "数据替换",                        ID_BUDGETMGR_REPLACE
+        MENUITEM "数量合计",                        ID_BUDGETMGR_QTYSUM
+        MENUITEM SEPARATOR
+        MENUITEM "概算汇总",                        ID_BUDGETMGR_BUDGET
+        MENUITEM "指导汇总",                        ID_BUDGETMGR_GUIDANCE
+        MENUITEM SEPARATOR
+        MENUITEM "钢筋数量表",                       ID_STEELMGR_QTY
+        MENUITEM "钢筋构件库",                       ID_STEELMGR_LIBRARY
+        MENUITEM "钢筋订单表",                       ID_STEELMGR_ORDER
+        MENUITEM "钢筋加工表",                       ID_STEELMGR_PROCESS
+    END
+END
+
+ID_METHOD_EXPLOR MENU
+BEGIN
+    POPUP "资源管理"
+    BEGIN
+        MENUITEM "搜索",                          ID_EXPLOR_SEARCH
+        MENUITEM SEPARATOR
+        MENUITEM "根目录",                         ID_EXPLOR_DIRROOT
+        MENUITEM "返回",                          ID_EXPLOR_DIRBACK
+        MENUITEM SEPARATOR
+        MENUITEM "上传",                          ID_EXPLOR_UPLOAD
+        MENUITEM "下载",                          ID_EXPLOR_DOWNLOAD
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                          ID_EXPLOR_DELETE
+        MENUITEM "刷新",                          ID_EXPLOR_FLUSH
+    END
+END
+
+ID_THEME_SKIN MENU
+BEGIN
+    POPUP "界面风格"
+    BEGIN
+        MENUITEM "Codejock",                    ID_THEME_SKIN_CODEJOCK
+        MENUITEM "Office2007",                  ID_THEME_SKIN_OFFICE2007
+        MENUITEM "Office2010",                  ID_THEME_SKIN_OFFICE2010
+        MENUITEM "Vista",                       ID_THEME_SKIN_VISTA
+        MENUITEM "WinXP.Luna",                  ID_THEME_SKIN_WINXP_LUNA
+        MENUITEM "WinXP.Royale",                ID_THEME_SKIN_WINXP_ROYALE
+        MENUITEM "Zune",                        ID_THEME_SKIN_ZUNE
+    END
+END
+
+ID_THEME_STYLE MENU
+BEGIN
+    POPUP "样式"
+    BEGIN
+        MENUITEM "Office 2007 Blue",            ID_THEME_STYLE_BLUE2007
+        MENUITEM "Office 2007 Silver",          ID_THEME_STYLE_SILVER2007
+        MENUITEM "Office 2007 Black",           ID_THEME_STYLE_BLACK2007
+        MENUITEM "Office 2007 Aqua",            ID_THEME_STYLE_AQUA2007
+        MENUITEM "Windows 7 Scenic",            ID_THEME_STYLE_SCENIC7
+        MENUITEM "Office 2010 Blue",            ID_THEME_STYLE_BLUE2010
+        MENUITEM "Office 2010 Silver",          ID_THEME_STYLE_SILVER2010
+        MENUITEM "Office 2010 Black",           ID_THEME_STYLE_BLACK2010
+        MENUITEM "System",                      ID_THEME_STYLE_SYSTEM
+    END
+END
+
+ID_PROGRAM_SYSTEM MENU
+BEGIN
+    POPUP "系统工具"
+    BEGIN
+        MENUITEM "网络计划",                        ID_PROGRAM_TASKTRACK
+        MENUITEM "小型工具",                        ID_PROGRAM_METHOD
+        MENUITEM "绘制图标",                        ID_PROGRAM_CHART
+    END
+END
+
+ID_POINTSMGR_TABLE MENU
+BEGIN
+    POPUP "工程类别"
+    BEGIN
+        MENUITEM "路基工程",                        ID_TABLE_ROAD
+        MENUITEM "桥涵工程",                        ID_TABLE_BRIDGE
+        MENUITEM "隧道工程",                        ID_TABLE_TUNNEL
+        MENUITEM "轨道工程",                        ID_TABLE_ORBITAL
+        MENUITEM "站场工程",                        ID_TABLE_YARD
+        MENUITEM "大临工程",                        ID_TABLE_TEMP
+    END
+END
+
+ID_COSTMGR_TABLE MENU
+BEGIN
+    POPUP "成本控制"
+    BEGIN
+        MENUITEM "计算数量",                        ID_TABLE_QTY
+        MENUITEM "对上数量",                        ID_TABLE_UP
+        MENUITEM "对下数量",                        ID_TABLE_DOWN
+        MENUITEM "清单数量",                        ID_TABLE_LIST
+    END
+END
+
+ID_MATERMGR_TABLE MENU
+BEGIN
+    POPUP "物资管理"
+    BEGIN
+        MENUITEM "职工信息",                        ID_TABLE_EMPLOY
+        MENUITEM "公司信息",                        ID_TABLE_UNITS
+        MENUITEM "材料信息",                        ID_TABLE_GOODS
+        MENUITEM "合同信息",                        ID_TABLE_PACT
+        MENUITEM "仓库信息",                        ID_TABLE_BARN
+        MENUITEM "盘点信息",                        ID_TABLE_CHECK
+        MENUITEM "入库信息",                        ID_TABLE_INSTOCK
+        MENUITEM "出库信息",                        ID_TABLE_OUTSTOCK
+        MENUITEM "调库信息",                        ID_TABLE_MIXSTOCK
+        MENUITEM "退库信息",                        ID_TABLE_RETSTOCK
+    END
+END
+
+ID_FINANCEMGR_TABLE MENU
+BEGIN
+    POPUP "财务管理"
+    BEGIN
+        MENUITEM "成员信息",                        ID_TABLE_MEMBER
+        MENUITEM "款项信息",                        ID_TABLE_FUNDS
+        MENUITEM "收入信息",                        ID_TABLE_INCOME
+        MENUITEM "支出信息",                        ID_TABLE_OUTLAY
+    END
+END
+
+ID_BUDGETMGR_TABLE MENU
+BEGIN
+    POPUP "计量管理"
+    BEGIN
+        MENUITEM "指导价表",                        ID_TABLE_GUIDANCE
+        MENUITEM "分项概算",                        ID_TABLE_BUDGET
+        MENUITEM "指导概算",                        ID_TABLE_BUDGET_REP
+        MENUITEM "合同清单",                        ID_TABLE_CONTRACT
+        MENUITEM "流水数量",                        ID_TABLE_QUANTITY
+        MENUITEM "汇总数量",                        ID_TABLE_QUANTITY_SUM
+    END
+END
+
+ID_FILE_PRINT MENU
+BEGIN
+    POPUP "打印"
+    BEGIN
+        MENUITEM "打印",                          ID_FILE_PRINT
+        MENUITEM "打印设置.",                       ID_FILE_PRINT_SETUP
+        MENUITEM "打印预览",                        ID_FILE_PRINT_PREVIEW
+    END
+END
+
+ID_FILE_SEND MENU
+BEGIN
+    POPUP "发送"
+    BEGIN
+        MENUITEM "邮件",                          ID_FILE_SEND_MAIL
+        MENUITEM "传真",                          ID_FILE_SEND_INTERNETFAX
+    END
+END
+
+ID_FILE_DATA MENU
+BEGIN
+    POPUP "数据"
+    BEGIN
+        MENUITEM "导入数据",                        ID_FILE_IMPORT
+        MENUITEM "导出数据",                        ID_FILE_EXPORT
+    END
+END
+
+ID_GALLERY_SHAPES MENU
+BEGIN
+    POPUP "图形"
+    BEGIN
+        MENUITEM "图形",                          ID_GALLERY_SHAPES
+        MENUITEM "新画",                          ID_SHAPES_NEWDRAWING
+    END
+END
+
+ID_FONT_BACKCOLOR MENU
+BEGIN
+    POPUP "文字背 景色"
+    BEGIN
+        MENUITEM "背景色",                         ID_GALLERY_FONT_BACKCOLOR
+        MENUITEM "无颜色",                         ID_FONT_NOBACKCOLOR
+    END
+END
+
+ID_FONT_UNDERLINE MENU
+BEGIN
+    POPUP "下划线"
+    BEGIN
+        MENUITEM "下划线(&U)",                     ID_UNDERLINE_SINGLE
+        MENUITEM "双下划线(&D)",                    ID_UNDERLINE_DOUBLE
+    END
+END
+
+ID_FONT_CHARFIELD MENU
+BEGIN
+    POPUP "显示隐藏 拼音字段"
+    BEGIN
+        MENUITEM "显示拼音字段(&S)",                  ID_CHARFIELD_SHOW
+        MENUITEM "编辑拼音(&E)",                    ID_CHARFIELD_EDIT
+        MENUITEM "拼音设置(&T)",                    ID_CHARFIELD_MODIFY
+    END
+END
+
+ID_FONT_BORDERS MENU
+BEGIN
+    POPUP "边框线"
+    BEGIN
+        MENUITEM "下框线",                         ID_BORDERS_DOWN
+        MENUITEM "上框线",                         ID_BORDERS_UP
+        MENUITEM "左框线",                         ID_BORDERS_LEFT
+        MENUITEM "右框线",                         ID_BORDERS_RIGHT
+        MENUITEM "无框线",                         ID_BORDERS_NO
+        MENUITEM "所有框线",                        ID_BORDERS_ALL
+        MENUITEM "外侧框线",                        ID_BORDERS_OUT
+        MENUITEM "粗匣框线",                        ID_BORDERS_OUTB
+        MENUITEM SEPARATOR
+        MENUITEM "双底框线",                        ID_BORDERS_DOWND
+        MENUITEM "粗底框线",                        ID_BORDERS_DOWNB
+        MENUITEM "上下框线",                        ID_BORDERS_UPDOWN
+        MENUITEM "上框线和双底框线",                    ID_BORDERS_UPDOWND
+        MENUITEM "上框线和粗底框线",                    ID_BORDERS_UPDOWNB
+        MENUITEM SEPARATOR
+        MENUITEM "中横框线",                        ID_BORDERS_MIDH
+        MENUITEM "中竖框线",                        ID_BORDERS_MIDV
+        MENUITEM "左斜框线",                        ID_BORDERS_LEFTS
+        MENUITEM "右斜框线",                        ID_BORDERS_RIGHTS
+        MENUITEM "中间框线",                        ID_BORDERS_MIDHV
+    END
+END
+
+ID_ALIGNMENT_DIRECT MENU
+BEGIN
+    POPUP "方向"
+    BEGIN
+        MENUITEM "逆时针角度(&O)",                   ID_DIRECT_DECLOCKWISE
+        MENUITEM "顺时针角度(&L)",                   ID_DIRECT_INCLOCKWISE
+        MENUITEM "竖排文字(&V)",                    ID_DIRECT_VERTICALTEXT
+        MENUITEM "向上旋转文字(&U)",                  ID_DIRECT_UPROTATEDTEXT
+        MENUITEM "向下旋转文字(&D)",                  ID_DIRECT_DOWNROTATEDTEXT
+        MENUITEM SEPARATOR
+        MENUITEM "设置单元格对齐方式(&M)",               ID_DIRECT_CELLALIGNMENT
+    END
+END
+
+ID_ALIGNMENT_MERGE MENU
+BEGIN
+    POPUP "合并后 居中"
+    BEGIN
+        MENUITEM "合并后居中(&C)",                   ID_MERGE_CENTER
+        MENUITEM "跨越合并(&A)",                    ID_MERGE_SPAN
+        MENUITEM "合并单元格(&M)",                   ID_MERGE_CELL
+        MENUITEM "取消单元格合并(&U)",                 ID_MERGE_UNDO
+    END
+END
+
+ID_NUMBER_ACCOUNTANT MENU
+BEGIN
+    POPUP "会计数字 格式"
+    BEGIN
+        MENUITEM "￥ 中文(简体，中国)",                 ID_ACCOUNTANT_CHINESE
+        MENUITEM "￡ 英语(英国)",                    ID_ACCOUNTANT_ENGLISH
+        MENUITEM "� EURO(�123)",                ID_ACCOUNTANT_EURO
+        MENUITEM "fr. 法语(瑞士)",                  ID_ACCOUNTANT_FRENCE
+        MENUITEM "其他会计格式(&M)...",               ID_ACCOUNTANT_OTHER
+    END
+END
+
+ID_STYLES_CONDITION MENU
+BEGIN
+    POPUP "条件格式"
+    BEGIN
+        MENUITEM "突出显示单元格规则(&H)",               ID_CONDITION_HIGHLIGHT
+        MENUITEM "项目选取规则(&T)",                  ID_CONDITION_ITEMSELECT
+        MENUITEM SEPARATOR
+        MENUITEM "数据条(&D)",                     ID_CONDITION_DATABARS
+        MENUITEM "色阶(&S)",                      ID_CONDITION_CLRVALEUR
+        MENUITEM "图标集(&I)",                     ID_CONDITION_ICONLIST
+        MENUITEM SEPARATOR
+        MENUITEM "新建规则(&N)",                    ID_CONDITION_NEW
+        MENUITEM "清除规则(&C)",                    ID_CONDITION_CLEAR
+        MENUITEM "管理规则(&R)",                    ID_CONDITION_MANAGE
+    END
+END
+
+ID_STYLES_CELL MENU
+BEGIN
+    POPUP "单元格 样式"
+    BEGIN
+        MENUITEM "单元格样式",                       ID_GALLERY_STYLES_CELL
+        MENUITEM "新建单元格样式(&N)...",              ID_STYLECELL_NEW
+        MENUITEM "合并样式(&M)",                    ID_STYLECELL_MERGE
+    END
+END
+
+ID_STYLES_FORMAT MENU
+BEGIN
+    POPUP "套用 表格样式"
+    BEGIN
+        MENUITEM "样式类型",                        ID_GALLERY_STYLES_FORMAT
+        MENUITEM "保存样式",                        ID_STYLEFMT_SAVESTYLE
+        MENUITEM "应用样式",                        ID_STYLEFMT_APPLYSTYLE
+    END
+END
+
+ID_CELL_INSERT MENU
+BEGIN
+    POPUP "插入"
+    BEGIN
+        MENUITEM "插入单元格(&I)...",                ID_INSERT_CELL
+        MENUITEM "插入工作表行(&R)",                  ID_INSERT_ROW
+        MENUITEM "插入工作表列(&C)",                  ID_INSERT_COL
+        MENUITEM "插入工作表(&S)",                   ID_INSERT_TABLE
+    END
+END
+
+ID_CELL_DELETE MENU
+BEGIN
+    POPUP "删除"
+    BEGIN
+        MENUITEM "删除单元格(&D)...",                ID_DELETE_CELL
+        MENUITEM "删除工作表行(&R)",                  ID_DELETE_ROW
+        MENUITEM "删除工作表列(&C)",                  ID_DELETE_COL
+        MENUITEM "删除工作表(&S)",                   ID_DELETE_TABLE
+    END
+END
+
+ID_CELL_FORMAT MENU
+BEGIN
+    POPUP "格式"
+    BEGIN
+        MENUITEM "行高(&H)...",                   ID_FORMAT_ROWHIGHT
+        MENUITEM "自动调整行高(&A)",                  ID_FORMAT_AUTOROWHIGHT
+        MENUITEM "默认行高(&T)...",                 ID_FORMAT_DEFAULTROWHIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "列宽(&W)...",                   ID_FORMAT_COLWIDTH
+        MENUITEM "自动调整列宽(&I)",                  ID_FORMAT_AUTOCOLWIDTH
+        MENUITEM "默认列宽(&D)...",                 ID_FORMAT_DEFAULTCOLWIDTH
+        POPUP "隐藏和取消隐藏(&U)"
+        BEGIN
+            MENUITEM "隐藏行(&R)",                     ID_FORMAT_HIDE_ROW
+            MENUITEM "隐藏列(&C)",                     ID_FORMAT_HIDE_COL
+            MENUITEM "隐藏工作表(&S)",                   ID_FORMAT_HIDE_TABLE
+            MENUITEM "取消隐藏行(&O)",                   ID_FORMAT_SHOW_ROW
+            MENUITEM "取消隐藏列(&L)",                   ID_FORMAT_SHOW_COL
+            MENUITEM "取消隐藏工作表(&H)...",              ID_FORMAT_SHOW_TABLE
+        END
+        MENUITEM "重命名工作表(&R)",                  ID_FORMAT_RENAME
+        MENUITEM "移动或复制工作表(&M)...",             ID_FORMAT_MOVECOPY
+        MENUITEM "工作表列标颜色(&T)",                 ID_FORMAT_COLUMNCOLOR
+        MENUITEM "保护工作表(&P)...",                ID_FORMAT_PROTECT
+        MENUITEM "锁定工作表(&L)",                   ID_FORMAT_LOCK
+        MENUITEM SEPARATOR
+        MENUITEM "设置单元格格式(&E)...",              ID_FORMAT_MODIFY
+    END
+END
+
+ID_MODIFY_SUM MENU
+BEGIN
+    POPUP "自动求和"
+    BEGIN
+        MENUITEM "求和(&S)",                      ID_SUM_SUM
+        MENUITEM "平均值(&A)",                     ID_SUM_AVERAGE
+        MENUITEM "计数(&C)",                      ID_SUM_COUNT
+        MENUITEM "最大值(&M)",                     ID_SUM_MAX
+        MENUITEM "最小值(&I)",                     ID_SUM_MIN
+        MENUITEM SEPARATOR
+        MENUITEM "其他函数(&F)...",                 ID_SUM_FUNCTION
+    END
+END
+
+ID_MODIFY_FILL MENU
+BEGIN
+    POPUP "填充"
+    BEGIN
+        MENUITEM "向下(&D)",                      ID_FILL_DOWN
+        MENUITEM "向右(&R)",                      ID_FILL_RIGHT
+        MENUITEM "向上(&U)",                      ID_FILL_UP
+        MENUITEM SEPARATOR
+        MENUITEM "向左(&L)",                      ID_FILL_LEFT
+        MENUITEM "成组工作表(&A)...",                ID_FILL_GROUP
+        MENUITEM "系列(&S)...",                   ID_FILL_SERIES
+        MENUITEM "两端对齐(&J)",                    ID_FILL_FULLJUST
+    END
+END
+
+ID_MODIFY_CLEAR MENU
+BEGIN
+    POPUP "清除"
+    BEGIN
+        MENUITEM "全部清除(&A)",                    ID_CLEAR_ALL
+        MENUITEM "清除格式(&F)",                    ID_CLEAR_FORMAT
+        MENUITEM "清除内容(&C)",                    ID_CLEAR_CONTENT
+        MENUITEM "清除批注(&M)",                    ID_CLEAR_REMARK
+    END
+END
+
+ID_MODIFY_SORTFILTER MENU
+BEGIN
+    POPUP "排序和 筛选"
+    BEGIN
+        MENUITEM "升序(&S)",                      ID_SORTFILTER_ASCE
+        MENUITEM "降序(&O)",                      ID_SORTFILTER_DESC
+        MENUITEM "自定义排序(&U)...",                ID_SORTFILTER_SORT
+        MENUITEM SEPARATOR
+        MENUITEM "筛选(&F)",                      ID_SORTFILTER_FILTER
+        MENUITEM "清除(&C)",                      ID_SORTFILTER_CLEAR
+        MENUITEM "重新应用(&Y)",                    ID_SORTFILTER_REAPPLY
+    END
+END
+
+ID_MODIFY_FINDSELECT MENU
+BEGIN
+    POPUP "查找和 选择"
+    BEGIN
+        MENUITEM "查找(&F)....",                  ID_FINDSELECT_FIND
+        MENUITEM "替换(&R)....",                  ID_FINDSELECT_REPLACE
+        MENUITEM "转到(&G)....",                  ID_FINDSELECT_GOTO
+        MENUITEM "定位条件(&S)....",                ID_FINDSELECT_LOCALIZE
+        MENUITEM SEPARATOR
+        MENUITEM "公式(&U)",                      ID_FINDSELECT_FORMULA
+        MENUITEM "批注(&M)",                      ID_FINDSELECT_REMARK
+        MENUITEM SEPARATOR
+        MENUITEM "条件格式(&C)",                    ID_FINDSELECT_CONDITION
+        MENUITEM "常量(&N)",                      ID_FINDSELECT_CONSTANT
+        MENUITEM "数据有效性(&V)",                   ID_FINDSELECT_DATAVALIDITY
+        MENUITEM "选择对象(&O)",                    ID_FINDSELECT_SELOBJECTS
+        MENUITEM "选择窗格(&P)....",                ID_FINDSELECT_SELWINDOW
+    END
+END
+
+ID_ZXING_FORMAT MENU
+BEGIN
+    POPUP "编码类别"
+    BEGIN
+        MENUITEM "数字条形码",                       ID_ZXING_EAN13
+        MENUITEM "条形二维码",                       ID_ZXING_PDF417
+        MENUITEM "普通二维码",                       ID_ZXING_QRCODE
+        MENUITEM "图标二维码",                       ID_ZXING_QRCODEMID
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, ALT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    "A",            ID_EDIT_SELECT_ALL,     VIRTKEY, CONTROL, NOINVERT
+    VK_RETURN,      ID_EDIT_REDO,           VIRTKEY, ALT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "R",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "W",            ID_FILE_PRINT_PREVIEW,  VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_FILE_IMPORT,         VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_FILE_EXPORT,         VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F4,          ID_APP_EXIT,            VIRTKEY, ALT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    "0",            ID_METHOD_HOME,         VIRTKEY, CONTROL, NOINVERT
+    "1",            ID_METHOD_SYSTEM,       VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_METHOD_POINTSMGR,    VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_METHOD_COSTMGR,      VIRTKEY, CONTROL, NOINVERT
+    "4",            ID_METHOD_MATERMGR,     VIRTKEY, CONTROL, NOINVERT
+    "5",            ID_METHOD_FINANCEMGR,   VIRTKEY, CONTROL, NOINVERT
+    "6",            ID_METHOD_CRTSMGR,      VIRTKEY, CONTROL, NOINVERT
+    "7",            ID_METHOD_PROBLEMMGR,   VIRTKEY, CONTROL, NOINVERT
+    "8",            ID_METHOD_PULLWORKMGR,  VIRTKEY, CONTROL, NOINVERT
+    "9",            ID_METHOD_EXPLOR,       VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_ABOUT DIALOGEX 0, 0, 200, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于施工项目管理系统"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "施工项目管理系统 v3.0版",IDC_STATIC,33,6,79,8,SS_NOPREFIX
+    LTEXT           "版权所有(C) 2017.02",IDC_STATIC,33,16,71,8
+    DEFPUSHBUTTON   "确定",IDOK,157,12,34,12,WS_GROUP
+    LTEXT           "作者:  方波    QQ：12624542",IDC_STATIC,33,26,99,8
+    LTEXT           "邮箱:  fb19801101@126.com",IDC_ABOUT_SC_EMAIL,33,36,103,8
+    LTEXT           "主页:  http://www.cr121.com",IDC_ABOUT_SC_HOME,33,46,122,8
+    LTEXT           "公司: 中铁十二局集团第一工程有限公司",IDC_STATIC,33,56,124,8
+    ICON            IDR_MAINFRAME,IDC_STATIC,6,23,20,20
+END
+
+IDD_VIEW_CHART DIALOGEX 0, 0, 446, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_CHART_CHARTCONTROL,"XTPChartControl",WS_TABSTOP,0,36,446,151
+    LTEXT           "图表样式:",IDC_STATIC,13,16,34,10,NOT WS_GROUP
+    COMBOBOX        IDC_CHART_CB_CHART_STYLE,50,11,62,84,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "外观样式:",IDC_STATIC,123,15,34,12,NOT WS_GROUP
+    COMBOBOX        IDC_CHART_CB_APPEARANCES,160,11,62,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "分项颜色:",IDC_STATIC,233,15,34,12,NOT WS_GROUP
+    GROUPBOX        "基本参数",IDC_CHART_GP_LABELS,0,1,446,32
+    COMBOBOX        IDC_CHART_CB_PALETTES,270,11,62,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Chart Style",IDC_CHART_BN_CHART_STYLE,360,11,62,15
+END
+
+IDD_DLG_REG DIALOGEX 0, 0, 245, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "软件注册"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_REG_ET_USER,47,7,84,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_REG_ET_CODE,47,29,145,12,ES_UPPERCASE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_REG_ET_SN1,47,46,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REG_ET_SN2,85,46,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REG_ET_SN3,123,46,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REG_ET_SN4,161,46,31,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "生成机器码",IDC_REG_BN_CODE,136,6,50,13,BS_FLAT
+    DEFPUSHBUTTON   "生成注册码",IDC_REG_BN_SERIAL,189,6,50,13,BS_FLAT
+    DEFPUSHBUTTON   "注册",IDOK,201,27,38,14
+    PUSHBUTTON      "关闭",IDCANCEL,201,44,38,14
+    CONTROL         "用户名：",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,11,8,33,8
+    CONTROL         "机器码：",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,11,31,33,8
+    CONTROL         "注册码：",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,11,48,33,8
+END
+
+IDD_DLG_MARKER DIALOGEX 0, 0, 186, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "标记属性"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确 定",IDOK,129,7,50,14
+    PUSHBUTTON      "取 消",IDCANCEL,129,24,50,14
+    LTEXT           "位置",IDC_STATIC,7,7,91,8
+    EDITTEXT        IDC_MARKER_ET_POSITION,7,16,107,14,ES_AUTOHSCROLL
+    LTEXT           "标题",IDC_STATIC,7,32,91,8
+    EDITTEXT        IDC_MARKER_ET_CAPTION,7,42,107,14,ES_AUTOHSCROLL
+END
+
+IDD_DLG_PROPERTIES DIALOGEX 0, 0, 186, 63
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "时间轴属性"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确 定",IDOK,129,7,50,14
+    PUSHBUTTON      "取 消",IDCANCEL,129,24,50,14
+    LTEXT           "最小时间值",IDC_STATIC,7,7,91,8
+    EDITTEXT        IDC_PROPERTIES_ET_MIN,7,16,107,14,ES_AUTOHSCROLL
+    LTEXT           "最大的时间值",IDC_STATIC,7,32,91,8
+    EDITTEXT        IDC_PROPERTIES_ET_MAX,7,42,107,14,ES_AUTOHSCROLL
+END
+
+IDD_VIEW_TASKTRACK DIALOGEX 0, 0, 392, 130
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_NOFAILCREATE | DS_CENTER | WS_CHILD | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "任务计划系统"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TASKTRACK_REPORTCTRL,"XTPReport",WS_TABSTOP,0,0,392,117
+    CONTROL         "",IDC_TASKTRACK_SLIDER,"msctls_trackbar32",TBS_TOP | TBS_NOTICKS | WS_TABSTOP,0,118,74,12
+    SCROLLBAR       IDC_TASKTRACK_SCROLLBAR,98,118,294,12
+END
+
+IDD_TASKITEM_SEARCH_SIZE DIALOG 0, 0, 136, 75
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "任意项",IDC_SEARCH_SIZE_RO_ANYSIZE,"Button",BS_AUTORADIOBUTTON,0,0,119,10
+    CONTROL         "小于(100KB)",IDC_SEARCH_SIZE_RO_SMALL,"Button",BS_AUTORADIOBUTTON,0,9,119,10
+    CONTROL         "中间(100KB-1MB)",IDC_SEARCH_SIZE_RO_MEDIUM,"Button",BS_AUTORADIOBUTTON,0,19,119,10
+    CONTROL         "大于(1MB)",IDC_SEARCH_SIZE_RO_LARGE,"Button",BS_AUTORADIOBUTTON,0,28,119,10
+    CONTROL         "特定大小(KB)",IDC_SEARCH_SIZE_RO_SPECIFY,"Button",BS_AUTORADIOBUTTON,0,38,119,10
+    COMBOBOX        IDC_SEARCH_SIZE_CB_COMBO,13,51,39,14,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_SEARCH_SIZE_ET_EDIT,55,51,66,13,ES_AUTOHSCROLL
+END
+
+IDD_TASKITEM_SEARCH_MODIFIED DIALOG 0, 0, 134, 100
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "任意项",IDC_SEARCH_MODIFIED_RO_ANYDATE,"Button",BS_AUTORADIOBUTTON,0,0,119,10
+    CONTROL         "上一周",IDC_SEARCH_MODIFIED_RO_LASTWEEK,"Button",BS_AUTORADIOBUTTON,0,9,119,10
+    CONTROL         "上个月",IDC_SEARCH_MODIFIED_RO_LASTMONTH,"Button",BS_AUTORADIOBUTTON,0,19,119,10
+    CONTROL         "上一年",IDC_SEARCH_MODIFIED_RO_LASTYEAR,"Button",BS_AUTORADIOBUTTON,0,28,119,10
+    CONTROL         "特定期",IDC_SEARCH_MODIFIED_RO_SPECIFIYDATE,"Button",BS_AUTORADIOBUTTON,0,38,119,10
+    COMBOBOX        IDC_SEARCH_MODIFIED_CB_COMBO,10,50,116,16,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "从:",IDC_STATIC,10,67,19,9
+    LTEXT           "到:",IDC_STATIC,9,78,14,8
+    EDITTEXT        IDC_SEARCH_MODIFIED_ET_EDIT1,37,64,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SEARCH_MODIFIED_ET_EDIT2,37,78,88,12,ES_AUTOHSCROLL
+END
+
+IDD_TASKITEM_SEARCH_START DIALOGEX 0, 0, 114, 26
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "搜 索(&S)",IDC_SEARCH_START_BN_SEARCH,57,11,49,14
+END
+
+IDD_DLG_LOGIN DIALOGEX 0, 0, 227, 115
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户登录"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "登  录",IDOK,60,93,43,14
+    PUSHBUTTON      "取  消",IDCANCEL,121,93,43,14
+    EDITTEXT        IDC_LOGIN_ET_USER,51,35,114,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOGIN_ET_PWD,51,54,114,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "记住密码",IDC_LOGIN_CK_PWD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,75,48,10
+    CONTROL         "自动登录",IDC_LOGIN_CK_LOGIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,113,75,48,10
+    PUSHBUTTON      "注册账号",IDC_LOGIN_BN_USER,170,35,46,14
+    PUSHBUTTON      "修改密码",IDC_LOGIN_BN_PWD,170,54,46,14
+    LTEXT           "用户名称",IDC_STATIC,10,38,33,8
+    LTEXT           "用户密码",IDC_STATIC,10,57,33,8
+    ICON            IDI_KEY,IDC_STATIC,16,82,20,20,0,WS_EX_TRANSPARENT
+    CONTROL         "Ribbon",IDC_LOGIN_CK_FRAME,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,177,75,36,10
+    CONTROL         121,IDC_STATIC,"Static",SS_BITMAP,12,3,200,22,WS_EX_TRANSPARENT
+END
+
+IDD_DLG_SETPWD DIALOGEX 0, 0, 179, 105
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改密码"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确  定",IDOK,37,86,43,14
+    PUSHBUTTON      "取  消",IDCANCEL,103,86,43,14
+    LTEXT           "用户名称",IDC_STATIC,16,8,33,8
+    LTEXT           "原密码",IDC_STATIC,16,27,33,8
+    EDITTEXT        IDC_SETPWD_ET_USER,57,5,109,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SETPWD_ET_PWD,57,24,109,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "新密码",IDC_STATIC,16,46,33,8
+    EDITTEXT        IDC_SETPWD_ET_PWD2,57,62,109,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "确认密码",IDC_STATIC,16,65,33,8
+    EDITTEXT        IDC_SETPWD_ET_PWD3,57,43,109,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_DLG_REGUSER DIALOGEX 0, 0, 179, 79
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户注册"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确  定",IDOK,36,60,43,14
+    PUSHBUTTON      "取  消",IDCANCEL,102,60,43,14
+    LTEXT           "用户名称",IDC_STATIC,12,8,33,8
+    LTEXT           "输入密码",IDC_STATIC,12,26,33,8
+    EDITTEXT        IDC_REGUSER_ET_USER,57,5,110,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REGUSER_ET_PWD,57,23,110,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "确认密码",IDC_STATIC,12,44,33,8
+    EDITTEXT        IDC_REGUSER_ET_PWD2,57,41,110,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_BAR_FILTEREDIT DIALOGEX 0, 0, 95, 18
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_BORDER
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_BAR_FILTEREDIT,4,3,88,12,ES_AUTOHSCROLL
+END
+
+IDD_BAR_SUBLIST DIALOGEX 0, 0, 78, 129
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_BORDER
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LISTBOX         IDC_BAR_SUBLIST,3,3,71,123,LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_TREEEDIT DIALOGEX 0, 0, 430, 271
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tree Edit"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,250,50,14
+    CONTROL         "",IDC_REPORT_CONTROL,"XTPReport",WS_TABSTOP,7,7,416,238,WS_EX_STATICEDGE
+END
+
+IDD_DLG_PERFOMANCE DIALOGEX 0, 0, 365, 193
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Perfomance Test"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_REPORT_CONTROL,"XTPReport",WS_TABSTOP,0,0,364,192,WS_EX_STATICEDGE
+END
+
+IDD_DLG_FORMULA DIALOGEX 0, 0, 430, 271
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Formula test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,250,50,14
+    CONTROL         "",IDC_REPORT_CONTROL,"XTPReport",WS_TABSTOP,7,7,416,238,WS_EX_STATICEDGE
+END
+
+IDD_DLG_DRAGDROP DIALOGEX 0, 0, 430, 286
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Drag & Drop test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,265,50,14
+    CONTROL         "",IDC_DRAGDROP_REPORT1,"XTPReport",WS_TABSTOP,7,7,205,238,WS_EX_STATICEDGE
+    CONTROL         "",IDC_DRAGDROP_REPORT2,"XTPReport",WS_TABSTOP,217,7,206,238,WS_EX_STATICEDGE
+    CONTROL         "Sorted Drag && Drop",IDC_DRAGDROP_SORTED1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,217,252,77,10
+    CONTROL         "Sorted Drag && Drop",IDC_DRAGDROP_SORTED2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,252,77,10
+END
+
+IDD_DLG_TRAYICON DIALOGEX 0, 0, 279, 212
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Tray Icon Option"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Tooltip Te&xt:",IDC_TRAYICON_GP_TOOLTIP,0,0,279,70,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_TRAYICON_ET_TOOLTIP,7,13,201,14,ES_AUTOHSCROLL
+    CONTROL         "Show &Icon",IDC_TRAYICON_CK_SHOWICON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,31,57,10
+    CONTROL         "&Animate Icon",IDC_TRAYICON_CK_ANIMATEICON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,43,57,10
+    PUSHBUTTON      "&Set Tooltip",IDC_TRAYICON_BN_TOOLTIP,214,13,58,14
+    PUSHBUTTON      "&Minimize to Tray...",IDC_TRAYICON_BN_MINIMIZETRAY,214,30,58,14
+    PUSHBUTTON      "&Done",IDOK,214,47,58,14
+    LTEXT           "The following features require Windows 7 or later",IDC_TRAYICON_TXT_INFO,7,58,201,8
+    CONTROL         "&Hide Icon",IDC_TRAYICON_CK_HIDEICON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,76,57,10
+    GROUPBOX        "Balloon Tip",IDC_TRAYICON_GP_BALLOONTIP,0,90,278,122
+    LTEXT           "Tit&le:",IDC_TRAYICON_TXT_BALLOONTITLE,7,100,57,8
+    EDITTEXT        IDC_TRAYICON_ET_BALLOONTITLE,7,111,201,14,ES_AUTOHSCROLL
+    LTEXT           "&Timeout (s)",IDC_TRAYICON_TXT_TIMEOUT,214,100,58,8
+    EDITTEXT        IDC_TRAYICON_ET_TIMEOUT,214,111,58,14,ES_AUTOHSCROLL
+    LTEXT           "Message:",IDC_TRAYICON_TXT_BALLOONMSG,7,129,57,8
+    EDITTEXT        IDC_TRAYICON_ET_BALLOONMSG,7,140,201,37,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+    LTEXT           "Icon style:",IDC_TRAYICON_TXT_BALLOONICON,7,182,57,8
+    COMBOBOX        IDC_TRAYICON_CB_BALLOONICON,7,194,201,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Sh&ow...",IDC_TRAYICON_BN_SHOWBALLOON,214,194,58,14
+END
+
+IDD_BACKSTAGEPAGE_INFO DIALOG 0, 0, 495, 249
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "Information about document",IDC_INFO_TXT_CAPTION,22,10,280,17
+    CONTROL         "",IDC_INFO_SC_SEPARATOR_1,"Static",SS_BLACKRECT,22,30,280,1
+    PUSHBUTTON      "Protect Document",IDC_INFO_BN_PROTECTDOCUMENT,22,40,49,44,BS_MULTILINE
+    LTEXT           "Permissions",IDC_INFO_TXT_PERMISSIONS,90,40,71,8
+    LTEXT           "Anyone can open, copy and change any part of this document.",IDC_INFO_TXT_TEXT1,90,54,212,36
+    CONTROL         "",IDC_INFO_SC_SEPARATOR_2,"Static",SS_BLACKRECT,22,92,280,1
+    PUSHBUTTON      "Check for Issues",IDC_INFO_CK_ISSUE,22,104,49,44,BS_MULTILINE
+    LTEXT           "Prepare for Sharing",IDC_INFO_TXT_PREPAREFORSHARING,90,104,71,8
+    LTEXT           "Before sharing this file, be aware that it contains:\nDocument properties and  author's name",IDC_INFO_TXT_TEXT2,90,116,212,32
+    CONTROL         "",IDC_INFO_SC_SEPARATOR_3,"Static",SS_BLACKRECT,22,156,280,1
+    PUSHBUTTON      "Manage Versions",IDC_INFO_BN_MANAGEVERSIONS,22,170,49,44,BS_MULTILINE
+    LTEXT           "Versions",IDC_INFO_TXT_VERSIONS,90,170,71,8
+    LTEXT           "There are no previous version of this file.",IDC_INFO_TXT_TEXT3,90,184,212,38
+    CONTROL         "",IDC_INFO_SC_SEPARATOR_4,"Static",SS_BLACKRECT,317,2,1,240
+    CONTROL         "IDB_SCREEN_PREVIEW",IDC_INFO_SC_PREVIEW,"Static",SS_BITMAP | SS_NOTIFY,326,7,13,11
+END
+
+IDD_BACKSTAGEPAGE_HELP DIALOG 0, 0, 497, 298
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "Support",IDC_HELP_TXT_CAPTION,22,17,161,12
+    CONTROL         "",IDC_HELP_SC_SEPARATOR_1,"Static",SS_BLACKRECT,22,30,168,1
+    PUSHBUTTON      "Help\nGet help using Codejock Toolkit Pro",IDC_HELP_BN_HELP,22,37,161,39,BS_LEFT | BS_MULTILINE
+    PUSHBUTTON      "Getting Started\nSee what's new and find resources to help you learn the basics quickly.",IDC_HELP_BN_GETTING_STARTED,22,80,161,39,BS_LEFT | BS_MULTILINE
+    PUSHBUTTON      "Contact Us\nLet us know if you need help or how we can make our Products better.",IDC_HELP_BN_CONTACT_US,22,123,161,39,BS_LEFT | BS_MULTILINE
+    LTEXT           "Tools",IDC_HELP_TXT_TOOLS,22,168,159,12
+    CONTROL         "",IDC_HELP_SC_SEPARATOR_2,"Static",SS_BLACKRECT,22,181,167,1
+    PUSHBUTTON      "Options\nCustomize langage, display, and other program settings.",IDC_HELP_BN_OPTIONS,22,188,161,39,BS_LEFT | BS_MULTILINE
+    PUSHBUTTON      "Check for Updates\nGet the latest updates available for Codejock Toolkit Pro",IDC_HELP_CK_UPDATES,22,232,161,39,BS_LEFT | BS_MULTILINE
+    CONTROL         "",IDC_HELP_SC_SEPARATOR_4,"Static",SS_BLACKRECT,198,3,1,288
+    CONTROL         101,IDC_STATIC,"Static",SS_BITMAP,215,14,13,11
+    LTEXT           "About Codejock Toolkit Pro",IDC_HELP_TXT_ABOUT,214,63,161,12
+    CONTROL         "",IDC_HELP_SC_SEPARATOR_3,"Static",SS_BLACKRECT,212,75,248,1
+    LTEXT           "Version:",IDC_HELP_TXT_TEXT,213,82,180,21
+END
+
+IDD_BACKSTAGEPAGE_SAVE DIALOG 0, 0, 497, 258
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Segoe UI"
+BEGIN
+    CONTROL         "",IDC_SAVE_SC_SEPARATOR_3,"Static",SS_BLACKRECT,182,13,1,238
+    LTEXT           "Save & Send",IDC_SAVE_TXT_CAPTION,22,17,148,12,SS_NOPREFIX
+    CONTROL         "",IDC_SAVE_SC_SEPARATOR_1,"Static",SS_BLACKRECT,22,30,150,1
+    PUSHBUTTON      "Send Using E-mail",IDC_SAVE_BN_SEND_EMAIL,22,37,161,25,BS_LEFT | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Save to Web",IDC_SAVE_BN_SAVE_WEB,22,63,161,25,BS_LEFT | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Save to SharePoint",IDC_SAVE_BN_SAVE_SHAREPOINT,22,91,161,25,BS_LEFT | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Publish as Blog Post",IDC_SAVE_BN_PUBLISH,22,119,161,25,BS_LEFT | BS_MULTILINE | BS_NOTIFY
+    LTEXT           "File Types",IDC_SAVE_TXT_FILETYPES,22,154,153,12
+    CONTROL         "",IDC_SAVE_SC_SEPARATOR_2,"Static",SS_BLACKRECT,22,167,150,1
+    PUSHBUTTON      "Change File Type",IDC_SAVE_BN_CHANGEFILETYPES,22,174,161,25,BS_LEFT | BS_MULTILINE | BS_NOTIFY
+    PUSHBUTTON      "Create PDF/XPS Document",IDC_SAVE_BN_CREATE_PDF,22,202,161,25,BS_LEFT | BS_MULTILINE | BS_NOTIFY
+    CONTROL         "",IDC_SAVE_SC_PAGE,"Static",SS_BLACKRECT | NOT WS_VISIBLE,191,7,299,244
+END
+
+IDD_BACKSTAGEPAGE_PRINT DIALOG 0, 0, 497, 258
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Segoe UI"
+BEGIN
+    CONTROL         "",IDC_PRINT_SC_SEPARATOR_2,"Static",SS_BLACKRECT,182,13,1,238
+    CONTROL         "",IDC_PRINT_SC_PAGE,"Static",SS_BLACKRECT | NOT WS_VISIBLE,191,7,299,244
+    PUSHBUTTON      "Print",IDC_PRINT_BN_PRINT,22,22,49,44,BS_MULTILINE
+    LTEXT           "Print",IDC_PRINT_TXT_CAPTION,78,23,84,12,SS_NOPREFIX
+    CONTROL         "",IDC_PRINT_SC_SEPARATOR_1,"Static",SS_BLACKRECT,78,36,96,1
+    LTEXT           "Copies:",IDC_STATIC,79,47,29,7
+    EDITTEXT        IDC_PRINT_ET_COPIES,111,44,61,14,ES_AUTOHSCROLL
+END
+
+IDD_BACKSTAGEPAGE_SAVE_EMAIL DIALOG 0, 0, 234, 258
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "Send Using E-mail",IDC_SAVE_EMAIL_TXT_CAPTION,10,10,148,12,SS_NOPREFIX
+    CONTROL         "",IDC_SAVE_EMAIL_SC_SEPARATOR,"Static",SS_BLACKRECT,10,23,217,1
+    PUSHBUTTON      "Send as Attachment",IDC_SAVE_EMAIL_BN_SEND,10,33,49,44,BS_MULTILINE
+    LTEXT           "Attach a copy of this document to an e-mail",IDC_SAVE_EMAIL_TXT_TEXT,70,34,157,36
+END
+
+IDD_BACKSTAGEPAGE_SAVE_WEB DIALOG 0, 0, 235, 258
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "Save to Web",IDC_SAVE_WEB_TXT_CAPTION,10,10,148,12,SS_NOPREFIX
+    CONTROL         "",IDC_SAVE_WEB_SC_SEPARATOR,"Static",SS_BLACKRECT,10,23,218,1
+    PUSHBUTTON      "Sign In",IDC_SAVE_WEB_BN_SIGNIN,10,33,49,44,BS_MULTILINE
+END
+
+IDD_BACKSTAGEPAGE_RECENT DIALOG 0, 0, 497, 258
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Segoe UI"
+BEGIN
+    LTEXT           "Recent Documents",IDC_RECENT_TXT_CAPTION,22,17,148,12,SS_NOPREFIX
+    CONTROL         "",IDC_RECENT_SC_SEPARATOR,"Static",SS_BLACKRECT,22,30,468,1
+    LTEXT           "Recent File List",IDC_RECENT_TXT_RECENTFILELIST,22,35,468,216,SS_NOTIFY | WS_TABSTOP
+END
+
+IDD_CUSTOMIZEPAGE_GENERAL DIALOGEX 0, 0, 467, 253
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "基本设置(&G)"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "基本设置",IDC_GENERAL_TXT_TITLE,14,7,442,22
+    LTEXT           "用户界面选项",IDC_GENERAL_TXT_CAPTION,8,36,452,13
+    CONTROL         "显示迷你工具栏",IDC_GENERAL_CK_SHOWMINITOOLBAR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,63,136,10
+    CONTROL         "显示按键提示",IDC_GENERAL_CK_SHOWEYBOARDTIPS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,74,136,10
+    LTEXT           "配色方案:",IDC_STATIC,18,92,53,8
+    COMBOBOX        IDC_GENERAL_CB_COLOR,73,90,112,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_PROPERTYGRID DIALOGEX 0, 0, 353, 257
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "报表属性"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROPERTYGRID_SC_PLACEHOLDER,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,7,187,244,WS_EX_CLIENTEDGE
+    GROUPBOX        "行为样式",IDC_PROPERTYGRID_GP_APPEAR,201,7,143,67,0,WS_EX_STATICEDGE
+    CONTROL         "显示工具栏",IDC_PROPERTYGRID_CK_TOOLBAR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,20,57,10
+    CONTROL         "显示帮助",IDC_PROPERTYGRID_CK_HELP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,33,49,10
+    CONTROL         "显示动作",IDC_PROPERTYGRID_CK_VERBS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,46,49,10
+    CONTROL         "显示按钮",IDC_PROPERTYGRID_CK_SHOWBUTTONS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,59,123,8
+    CONTROL         "项目导航",IDC_PROPERTYGRID_CK_TABITEMS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,273,20,63,10
+    CONTROL         "突出编辑",IDC_PROPERTYGRID_CK_HIGHLIGHT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,273,33,67,10
+    CONTROL         "左右倒置",IDC_PROPERTYGRID_CK_RIGHTTOLEFT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,273,46,67,10
+    GROUPBOX        "排序规则",IDC_PROPERTYGRID_GP_SORT,201,79,143,39,0,WS_EX_STATICEDGE
+    CONTROL         "分类排序",IDC_PROPERTYGRID_BN_SORT_CATEGORIES,"Button",BS_AUTORADIOBUTTON | WS_GROUP,207,91,55,10
+    CONTROL         "字母排序",IDC_PROPERTYGRID_BN_SORT_ALPHABETICAL,"Button",BS_AUTORADIOBUTTON,207,104,52,10
+    CONTROL         "无排序",IDC_PROPERTYGRID_BN_SORT_NOSORT,"Button",BS_AUTORADIOBUTTON,273,91,52,10
+    GROUPBOX        "显示属性",IDC_PROPERTYGRID_GP_COLOR,201,123,143,85,WS_GROUP,WS_EX_STATICEDGE
+    COMBOBOX        IDC_PROPERTYGRID_CB_THEME,207,135,127,62,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "双字体",IDC_PROPERTYGRID_CK_DOUBLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,156,55,10
+    CONTROL         "经典颜色",IDC_PROPERTYGRID_CK_CUSTOMCOLORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,273,156,57,10
+    COMBOBOX        IDC_PROPERTYGRID_CB_BORDER,207,187,127,62,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "全部折叠/全部展开",IDC_PROPERTYGRID_BN_SWITCHSTATE,207,219,127,13
+    CONTROL         "允许多行文字",IDC_PROPERTYGRID_CK_MARKUP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,172,64,10
+    PUSHBUTTON      "添加数据",IDC_PROPERTYGRID_BN_ADD,207,238,39,13
+    PUSHBUTTON      "修改数据",IDC_PROPERTYGRID_BN_SET,251,238,39,13
+    PUSHBUTTON      "删除数据",IDC_PROPERTYGRID_BN_DEL,295,238,39,13
+END
+
+IDD_DLG_METHOD DIALOGEX 0, 0, 136, 208
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "功能列表"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,24,192,35,11
+    PUSHBUTTON      "取消",IDCANCEL,65,192,35,11
+    GROUPBOX        "工具",IDC_STATIC,3,5,130,59,0,WS_EX_STATICEDGE
+    CONTROL         "XLS 转 CSV",IDC_METHOD_RO_XLSCSV,"Button",BS_AUTORADIOBUTTON,11,19,55,10
+    CONTROL         "Word表格",IDC_METHOD_RO_WORDGRID,"Button",BS_AUTORADIOBUTTON,73,48,55,10
+    CONTROL         "Word图片",IDC_METHOD_RO_WORDPIC,"Button",BS_AUTORADIOBUTTON,11,48,55,10
+    GROUPBOX        "日志",IDC_STATIC,3,71,130,35,0,WS_EX_STATICEDGE
+    CONTROL         "施工日志",IDC_METHOD_RO_CONSTLOG,"Button",BS_AUTORADIOBUTTON,11,87,48,10
+    CONTROL         "监理日志",IDC_METHOD_RO_GROUTLOG,"Button",BS_AUTORADIOBUTTON,65,87,48,10
+    GROUPBOX        "隧道",IDC_STATIC,3,113,130,67,0,WS_EX_STATICEDGE
+    CONTROL         "喷锚支护",IDC_METHOD_RO_JETCONCRETE,"Button",BS_AUTORADIOBUTTON,65,128,48,10
+    CONTROL         "注浆台账",IDC_METHOD_RO_GROUTLEDGER,"Button",BS_AUTORADIOBUTTON,11,128,48,10
+    CONTROL         "初期支护",IDC_METHOD_RO_INITIALSUPPORT,"Button",BS_AUTORADIOBUTTON,11,146,48,10
+    CONTROL         "锁脚注浆",IDC_METHOD_RO_LOCKANCHOR,"Button",BS_AUTORADIOBUTTON,65,146,48,10
+    CONTROL         "超前注浆",IDC_METHOD_RO_ADVANCEGROUT,"Button",BS_AUTORADIOBUTTON,11,162,48,10
+    CONTROL         "功能2",IDC_METHOD_RO_OTHER2,"Button",BS_AUTORADIOBUTTON,65,162,48,10
+    CONTROL         "分部分项树",IDC_METHOD_RO_PARTITEMTREE,"Button",BS_AUTORADIOBUTTON,11,34,55,10
+    CONTROL         "计量清单树",IDC_METHOD_RO_COSTLISTTREE,"Button",BS_AUTORADIOBUTTON,73,34,55,10
+    CONTROL         "公路概算",IDC_METHOD_RO_BUDGET,"Button",BS_AUTORADIOBUTTON,73,19,55,10
+END
+
+IDD_BAR_LISTBOX DIALOGEX 0, 0, 78, 129
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_BORDER
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LISTBOX         IDC_BAR_LISTBOX,3,3,71,123,LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_SKIN_THEME DIALOGEX 0, 0, 381, 256
+STYLE DS_SETFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Skins and Themes"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "&Local Skins",IDC_SKIN_RADIO_SKINLOCAL,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,7,8,53,10
+    CONTROL         "&System Skins",IDC_SKIN_RADIO_SKINSYSTEM,"Button",BS_AUTORADIOBUTTON,79,8,58,10
+    LISTBOX         IDC_SKIN_LIST_THEMES,0,24,175,230,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Apply frame skin",IDC_SKIN_CHECK_APPLYFRAME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,184,24,104,10
+    CONTROL         "Apply metrics",IDC_SKIN_CHECK_APPLYMETRICS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,184,36,104,10
+    CONTROL         "Apply colors",IDC_SKIN_CHECK_APPLYCOLORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,184,48,104,10
+    LTEXT           "&Color scheme:",IDC_STATIC,183,63,198,8
+    COMBOBOX        IDC_SKIN_COMBO_COLORS,183,74,198,62,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Font size:",IDC_STATIC,183,90,198,8
+    COMBOBOX        IDC_SKIN_COMBO_FONTS,183,101,198,58,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Default Skins",IDC_STATIC,183,123,198,55,0,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "Office 2007",IDC_SKIN_RADIO_OFFICE2007,"Button",BS_AUTORADIOBUTTON | WS_GROUP,194,137,53,10,WS_EX_TRANSPARENT
+    CONTROL         "Luna",IDC_SKIN_RADIO_LUNA,"Button",BS_AUTORADIOBUTTON,194,148,32,10,WS_EX_TRANSPARENT
+    CONTROL         "Royale",IDC_SKIN_RADIO_ROYALE,"Button",BS_AUTORADIOBUTTON,265,148,38,10,WS_EX_TRANSPARENT
+    CONTROL         "Vista",IDC_SKIN_RADIO_VISTA,"Button",BS_AUTORADIOBUTTON,311,148,31,10,WS_EX_TRANSPARENT
+    CONTROL         "Default",IDC_SKIN_RADIO_DEFAULT,"Button",BS_AUTORADIOBUTTON,194,160,39,10,WS_EX_TRANSPARENT
+    GROUPBOX        "CommandBars Theme",IDC_STATIC,183,186,198,68,0,WS_EX_STATICEDGE
+    CONTROL         "Office 2000",IDC_SKIN_RADIO_OFFICE2000,"Button",BS_AUTORADIOBUTTON | WS_GROUP,194,201,53,10
+    CONTROL         "Office XP",IDC_SKIN_RADIO_OFFICEXP,"Button",BS_AUTORADIOBUTTON,194,213,46,10
+    CONTROL         "Office 2003",IDC_SKIN_RADIO_OFFICE2003,"Button",BS_AUTORADIOBUTTON,194,225,63,10
+    CONTROL         "Native WinXP",IDC_SKIN_RADIO_WINTHEME,"Button",BS_AUTORADIOBUTTON,194,237,61,10
+    CONTROL         "Blue",IDC_SKIN_RADIO_OFFICE2003_BLUE,"Button",BS_AUTORADIOBUTTON,265,225,30,10
+    CONTROL         "Olive",IDC_SKIN_RADIO_OFFICE2003_OLIVE,"Button",BS_AUTORADIOBUTTON,299,225,32,10
+    CONTROL         "Silver",IDC_SKIN_RADIO_OFFICE2003_SILVER,"Button",BS_AUTORADIOBUTTON,338,225,40,10
+END
+
+IDD_DLG_LOAN DIALOGEX 0, 0, 475, 380
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "贷款还贷计算程序"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "银行贷款年利率（折算成小数）：",IDC_STATIC,27,70,123,8
+    LTEXT           "贷款总额（单位万元）：",IDC_STATIC,59,18,89,8
+    EDITTEXT        IDC_LOAN_YEAR_RATE,158,65,54,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOAN_TOTAL,156,15,54,14,ES_AUTOHSCROLL
+    LTEXT           "贷款年限（单位年）：",IDC_STATIC,299,18,81,8
+    LTEXT           "每月应还贷数额（单位元）：",IDC_STATIC,27,140,105,8
+    EDITTEXT        IDC_LOAN_YEARS,386,15,54,14,ES_AUTOHSCROLL
+    LTEXT           "要还利息总额为（单位万元）：",IDC_STATIC,27,183,113,8
+    PUSHBUTTON      "计算等额按揭情况",IDC_LOAN_CLAC_EQUAL_MORTGAGE,26,89,85,14
+    EDITTEXT        IDC_LOAN_MONTH_REPAYMENT,158,136,54,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LOAN_TOTAL_INTEREST,158,179,54,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "查看每年本金结果",IDC_LOAN_CHECK_YEAR_PRINCIPAL,127,89,87,14
+    GROUPBOX        "等额本息计算",IDC_STATIC,15,42,208,321,BS_CENTER
+    GROUPBOX        "等额本金计算",IDC_STATIC,245,42,208,321,BS_CENTER
+    LTEXT           "银行贷款月利率（折算成小数）：",IDC_STATIC,255,163,125,8
+    EDITTEXT        IDC_LOAN_YEAR_RATE2,386,65,55,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "查看每个月的按揭情况",IDC_LOAN_CLAC_MONTH_MORTGAGE,256,89,118,14
+    LTEXT           "银行贷款年利率（折算成小数）：",IDC_STATIC,255,70,121,8
+    EDITTEXT        IDC_LOAN_MONTH_RATE2,386,159,55,14,ES_AUTOHSCROLL
+    LTEXT           "要还利息总额为（单位万元）：",IDC_STATIC,255,186,113,8
+    EDITTEXT        IDC_LOAN_TOTAL_INTEREST2,386,183,55,14,ES_AUTOHSCROLL
+    LTEXT           "每年还款数额（单位元）：",IDC_STATIC,27,161,97,8
+    EDITTEXT        IDC_LOAN_YEAR_REPAYMENT,158,158,54,14,ES_AUTOHSCROLL
+    CONTROL         "List1",IDC_LOAN_INTEREST,"SysListView32",WS_BORDER | WS_TABSTOP,26,206,186,146,WS_EX_CLIENTEDGE
+    CONTROL         "List2",IDC_LOAN_PRINCIPAL,"SysListView32",WS_BORDER | WS_TABSTOP,256,206,186,146,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_LOAN_MONTH_RATE,158,114,54,14,ES_AUTOHSCROLL
+    LTEXT           "银行贷款月利率（折算成小数）：",IDC_STATIC,27,119,125,8
+    LTEXT           "（注意：等额本金按揭还贷的每个月按揭数额不等）",IDC_STATIC,257,115,185,8
+    LTEXT           "银行贷款天利率（折算成小数）：",IDC_STATIC,256,138,125,8
+    EDITTEXT        IDC_LOAN_DAY_RATE,386,133,54,14,ES_AUTOHSCROLL
+    CONTROL         "月率相等",IDC_LOAN_EQUAL_MONTH_RATE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,390,93,48,10
+END
+
+IDD_DLG_LOADPWD DIALOGEX 0, 0, 179, 60
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "解锁密码"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确  定",IDOK,33,42,43,14
+    PUSHBUTTON      "取  消",IDCANCEL,93,42,43,14
+    LTEXT           "解锁密码",-1,13,14,37,8
+    EDITTEXT        IDC_LOADPWD_ET_PWD,57,11,109,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 15,3,1,0
+ PRODUCTVERSION 15,3,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "Codejock Software"
+            VALUE "FileDescription", "RibbonReport MFC Application"
+            VALUE "FileVersion", "15, 3, 1, 0"
+            VALUE "InternalName", "RibbonReport"
+            VALUE "LegalCopyright", "(c)1998-2017 Codejock Software, All Rights Reserved."
+            VALUE "OriginalFilename", "RibbonReport.exe"
+            VALUE "ProductName", "RibbonReport Application"
+            VALUE "ProductVersion", "15, 3, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DLG_ABOUT, DIALOG
+    BEGIN
+    END
+
+    IDD_VIEW_CHART, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_REG, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_MARKER, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_PROPERTIES, DIALOG
+    BEGIN
+    END
+
+    IDD_VIEW_TASKTRACK, DIALOG
+    BEGIN
+    END
+
+    IDD_TASKITEM_SEARCH_SIZE, DIALOG
+    BEGIN
+    END
+
+    IDD_TASKITEM_SEARCH_MODIFIED, DIALOG
+    BEGIN
+    END
+
+    IDD_TASKITEM_SEARCH_START, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_LOGIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 225
+        BOTTOMMARGIN, 114
+    END
+
+    IDD_DLG_SETPWD, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_REGUSER, DIALOG
+    BEGIN
+    END
+
+    IDD_BAR_FILTEREDIT, DIALOG
+    BEGIN
+    END
+
+    IDD_BAR_SUBLIST, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_TREEEDIT, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_PERFOMANCE, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_FORMULA, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_DRAGDROP, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_TRAYICON, DIALOG
+    BEGIN
+    END
+
+    IDD_BACKSTAGEPAGE_INFO, DIALOG
+    BEGIN
+    END
+
+    IDD_BACKSTAGEPAGE_HELP, DIALOG
+    BEGIN
+    END
+
+    IDD_BACKSTAGEPAGE_SAVE, DIALOG
+    BEGIN
+    END
+
+    IDD_BACKSTAGEPAGE_SAVE_EMAIL, DIALOG
+    BEGIN
+    END
+
+    IDD_BACKSTAGEPAGE_SAVE_WEB, DIALOG
+    BEGIN
+    END
+
+    IDD_BACKSTAGEPAGE_RECENT, DIALOG
+    BEGIN
+    END
+
+    IDD_CUSTOMIZEPAGE_GENERAL, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_PROPERTYGRID, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_METHOD, DIALOG
+    BEGIN
+    END
+
+    IDD_BAR_LISTBOX, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_SKIN_THEME, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_LOAN, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_LOADPWD, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_FILE_PRINT_SETUP
+    BUTTON      ID_FILE_PRINT_PREVIEW
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_THEME_SKIN
+    BUTTON      ID_APP_PANEL
+    SEPARATOR
+    BUTTON      ID_APP_HELP
+    BUTTON      ID_APP_EXIT
+END
+
+IDR_MENU_MINITOOLBAR TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_FILE_PRINT_SETUP
+    BUTTON      ID_FILE_PRINT_PREVIEW
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_APP_PANEL
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_PANE_RIBBON TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_PANE_RIBBON_NEW
+    BUTTON      ID_PANE_RIBBON_OPEN
+    BUTTON      ID_PANE_RIBBON_SAVE
+    SEPARATOR
+    BUTTON      ID_PANE_RIBBON_EXPAND
+    SEPARATOR
+    BUTTON      ID_PANE_RIBBON_COLLAPSE
+    SEPARATOR
+    BUTTON      ID_PANE_RIBBON_INIT
+    SEPARATOR
+    BUTTON      ID_PANE_RIBBON_ADD
+    BUTTON      ID_PANE_RIBBON_CUT
+    BUTTON      ID_PANE_RIBBON_DEL
+    BUTTON      ID_PANE_RIBBON_SET
+    BUTTON      ID_PANE_RIBBON_LCK
+END
+
+IDR_PANE_PROPERTIES TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_PANE_PROPERTIES_CATEGORIZED
+    BUTTON      ID_PANE_PROPERTIES_ALPHABETIC
+    SEPARATOR
+    BUTTON      ID_PANE_PROPERTIES_PAGES
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RTF
+//
+
+IDR_MAINFRAME           RTF                     "Res\\Readme.rtf"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_BUILDERFILE    HTML                    "res\\BuilderFile.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DLG_TRAYICON DLGINIT
+BEGIN
+    IDC_TRAYICON_CB_BALLOONICON, 0x403, 26, 0
+0x494e, 0x4649, 0x455f, 0x5252, 0x524f, 0x2820, 0x4520, 0x7272, 0x726f, 
+0x6920, 0x6f63, 0x206e, 0x0029, 
+    IDC_TRAYICON_CB_BALLOONICON, 0x403, 31, 0
+0x494e, 0x4649, 0x495f, 0x464e, 0x204f, 0x2028, 0x6e49, 0x6f66, 0x6d72, 
+0x7461, 0x6f69, 0x206e, 0x6369, 0x6e6f, 0x2920, "\000" 
+    IDC_TRAYICON_CB_BALLOONICON, 0x403, 22, 0
+0x494e, 0x4649, 0x4e5f, 0x4e4f, 0x2045, 0x2028, 0x6f4e, 0x6920, 0x6f63, 
+0x206e, 0x0029, 
+    IDC_TRAYICON_CB_BALLOONICON, 0x403, 30, 0
+0x494e, 0x4649, 0x575f, 0x5241, 0x494e, 0x474e, 0x2820, 0x5720, 0x7261, 
+0x696e, 0x676e, 0x6920, 0x6f63, 0x206e, 0x0029, 
+    0
+END
+
+IDD_CUSTOMIZEPAGE_GENERAL DLGINIT
+BEGIN
+    IDC_GENERAL_CB_COLOR, 0x403, 17, 0
+0x664f, 0x6966, 0x6563, 0x3220, 0x3030, 0x2037, 0x6c42, 0x6575, "\000" 
+    IDC_GENERAL_CB_COLOR, 0x403, 19, 0
+0x664f, 0x6966, 0x6563, 0x3220, 0x3030, 0x2037, 0x6953, 0x766c, 0x7265, 
+"\000" 
+    IDC_GENERAL_CB_COLOR, 0x403, 18, 0
+0x664f, 0x6966, 0x6563, 0x3220, 0x3030, 0x2037, 0x6c42, 0x6361, 0x006b, 
+
+    IDC_GENERAL_CB_COLOR, 0x403, 17, 0
+0x664f, 0x6966, 0x6563, 0x3220, 0x3030, 0x2037, 0x7141, 0x6175, "\000" 
+    IDC_GENERAL_CB_COLOR, 0x403, 17, 0
+0x6957, 0x646e, 0x776f, 0x2073, 0x2037, 0x6353, 0x6e65, 0x6369, "\000" 
+    IDC_GENERAL_CB_COLOR, 0x403, 17, 0
+0x664f, 0x6966, 0x6563, 0x3220, 0x3130, 0x2030, 0x6c42, 0x6575, "\000" 
+    IDC_GENERAL_CB_COLOR, 0x403, 19, 0
+0x664f, 0x6966, 0x6563, 0x3220, 0x3130, 0x2030, 0x6953, 0x766c, 0x7265, 
+"\000" 
+    IDC_GENERAL_CB_COLOR, 0x403, 18, 0
+0x664f, 0x6966, 0x6563, 0x3220, 0x3130, 0x2030, 0x6c42, 0x6361, 0x006b, 
+
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE初始化失败。确保OLE库是正确的版本!"
+    IDP_FAILED_TO_CREATE    "未能创建对象。确保在系统注册表中输入对象!"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "施工项目管理系统"
+    IDR_PANE_PROPERTIES     "属性"
+    IDR_PANE_RIBBON         "控件树"
+    IDR_PANE_PARTITEM       "工点树"
+    IDR_PANE_PARTTYPE       "系统树"
+    IDR_PANE_BUDGET         "概算树"
+END
+
+STRINGTABLE
+BEGIN
+    ID_PANE_RIBBON_NEW      "新建"
+    ID_PANE_RIBBON_OPEN     "打开"
+    ID_PANE_RIBBON_SAVE     "保存"
+    ID_PANE_RIBBON_EXPAND   "展开"
+    ID_PANE_RIBBON_COLLAPSE "折叠"
+    ID_PANE_RIBBON_INIT     "初始化"
+    ID_PANE_RIBBON_ADD      "增添"
+    ID_PANE_RIBBON_CUT      "移除"
+    ID_PANE_RIBBON_DEL      "删除"
+    ID_PANE_RIBBON_SET      "修改"
+END
+
+STRINGTABLE
+BEGIN
+    ID_PANE_RIBBON_LCK      "锁定"
+    ID_PANE_PROPERTIES_PAGES "页面"
+END
+
+STRINGTABLE
+BEGIN
+    ID_PANE_PROPERTIES_CATEGORIZED "类别"
+    ID_PANE_PROPERTIES_ALPHABETIC "排序"
+    ID_TAB_SYSTEM           "系统任务"
+    ID_DATASET_DATBACKUP    "数据备份"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TAB_POINTSMGR        "项目工点"
+    ID_POINTSMGR_TABLE      "工程类别"
+    ID_REPORT_SET_EDITABLE  "允许编辑"
+    ID_REPORT_SET_ROWHEAD   "显示头行"
+    ID_REPORT_SET_ROWFOOT   "显示尾行"
+    ID_REPORT_SET_BACKUP    "备份表"
+    ID_REPORT_SET_RESTORE   "恢复表"
+    ID_REPORT_SET_DROP      "删除表"
+    ID_REPORT_SET_SUBLIST   "表头列表"
+    ID_REPORT_SET_FILTEREDIT "数据过滤"
+    ID_REPORT_SET_FILTERCLEAR "过滤清理"
+    ID_REPORT_MODIFY_ADD    "添加数据"
+    ID_REPORT_MODIFY_SET    "更新数据"
+    ID_REPORT_MODIFY_DEL    "删除数据"
+END
+
+STRINGTABLE
+BEGIN
+    ID_REPORT_GENERATOR     "成果报表"
+    ID_POINTSMGR_POINTS     "工点表"
+    ID_POINTSMGR_LEDGER     "计量台账"
+    ID_POINTSMGR_DATAPART   "工点数据"
+    ID_POINTSMGR_DATEEDIT   "日期数据"
+    ID_POINTSMGR_DATEBUTTON "显示日历"
+    ID_POINTSMGR_DATEPOPUP  "显示日历"
+    ID_POINTSMGR_DATEPICKER "日历控件"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TABLE_GUIDANCE       "指导价表"
+    ID_TABLE_BUDGET         "分项概算"
+    ID_TABLE_BUDGET_REP     "指导概算"
+    ID_TABLE_CONTRACT       "概算清单"
+    ID_TABLE_QUANTITY       "流水数量"
+    ID_TABLE_QUANTITY_SUM   "汇总数量"
+    ID_ZXING_FORMAT         "编码类别"
+    ID_ZXING_EAN13          "数字条 形码"
+END
+
+STRINGTABLE
+BEGIN
+    ID_ZXING_PDF417         "条形二 维码"
+    ID_ZXING_QRCODE         "普通二 维码"
+    ID_ZXING_QRCODEMID      "图标二 维码"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "施工项目管理系统"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "最小化窗口"
+    AFX_IDS_SCMAXIMIZE      "最大化窗口"
+    AFX_IDS_SCNEXTWINDOW    "切换下一窗口"
+    AFX_IDS_SCPREVWINDOW    "切换上一窗口"
+    AFX_IDS_SCCLOSE         "关闭保存窗口"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "恢复窗口大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "新建文件"
+    ID_FILE_OPEN            "打开文件"
+    ID_FILE_SAVE            "保存文件"
+    ID_FILE_SAVE_AS         "另存文件"
+    ID_FILE_PRINT_SETUP     "打印设置"
+    ID_FILE_PRINT           "打印文件"
+    ID_FILE_PRINT_PREVIEW   "打印预览"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_FILE             "文件"
+    ID_APP_CLOSE            "关闭当前文档"
+    ID_APP_OPTIONS          "选项"
+    ID_APP_PANEL            "属性"
+    ID_APP_HELP             "帮助"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "帮助信息"
+    ID_APP_EXIT             "退出程序"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_PRINT_LABEL     "打印文档"
+    ID_FILE_SEND_LABEL      "发送文档"
+    ID_FILE_SEND_INTERNETFAX "传真文档"
+    ID_FILE_DATA_LABEL      "数据转换"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开文件"
+    ID_FILE_MRU_FILE2       "打开文件"
+    ID_FILE_MRU_FILE3       "打开文件"
+    ID_FILE_MRU_FILE4       "打开文件"
+    ID_FILE_MRU_FILE5       "打开文件"
+    ID_FILE_MRU_FILE6       "打开文件"
+    ID_FILE_MRU_FILE7       "打开文件"
+    ID_FILE_MRU_FILE8       "打开文件"
+    ID_FILE_MRU_FILE9       "打开文件"
+    ID_FILE_MRU_FILE10      "打开文件"
+    ID_FILE_MRU_FILE11      "打开文件"
+    ID_FILE_MRU_FILE12      "打开文件"
+    ID_FILE_MRU_FILE13      "打开文件"
+    ID_FILE_MRU_FILE14      "打开文件"
+    ID_FILE_MRU_FILE15      "打开文件"
+    ID_FILE_MRU_FILE16      "打开文件"
+END
+
+STRINGTABLE
+BEGIN
+    ID_THEME_SKIN           "SKIN风格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_THEME_STYLE          "RIBBON风格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除选择"
+    ID_EDIT_CLEAR_ALL       "清除所有"
+    ID_EDIT_COPY            "复制"
+    ID_EDIT_CUT             "剪切"
+    ID_EDIT_FIND            "查找"
+    ID_EDIT_PASTE           "粘贴"
+    ID_EDIT_PASTE_LINK      "粘贴原连接"
+    ID_EDIT_PASTE_SPECIAL   "选择性粘贴"
+    ID_EDIT_REPEAT          "重复上一动作"
+    ID_EDIT_REPLACE         "替换"
+    ID_EDIT_SELECT_ALL      "全选"
+    ID_EDIT_UNDO            "撤销"
+    ID_EDIT_REDO            "重复"
+END
+
+STRINGTABLE
+BEGIN
+    ID_METHOD_HOME          "开始面板"
+    ID_METHOD_SYSTEM        "系统工具"
+    ID_METHOD_POINTSMGR     "工点管理"
+    ID_METHOD_COSTMGR       "成本管理"
+    ID_METHOD_MATERMGR      "物资管理"
+    ID_METHOD_FINANCEMGR    "财务管理"
+    ID_METHOD_CRTSMGR       "无砟轨道"
+    ID_METHOD_PROBLEMMGR    "克缺整治"
+    ID_METHOD_PULLWORKMGR   "拉动生产"
+    ID_METHOD_EXPLOR        "资源管理"
+    ID_METHOD_REPORT        "表格样式"
+    ID_METHOD_TASKTRACK     "任务计划"
+    ID_METHOD_SHELL         "图标排列"
+    ID_METHOD_FONT          "字体设置"
+END
+
+STRINGTABLE
+BEGIN
+    ID_SHAPES_NEWDRAWING    "新绘制图形"
+    ID_EDIT_FORMAT_PAINTER  "格式刷"
+END
+
+STRINGTABLE
+BEGIN
+    ID_REPORT_FILTEREDIT    "数据查询"
+    ID_REPORT_SUBLIST       "表头列表"
+    ID_REPORT_LISTBOX       "数据列表"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_IMPORT          "导入数据"
+    ID_FILE_EXPORT          "导出数据"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TAB_COSTMGR          "成本管理"
+    ID_COSTMGR_TABLE        "成本控制"
+    ID_COSTMGR_DAT          "基础数据"
+    ID_COSTMGR_SUM          "分类汇总"
+    ID_COSTMGR_ALL          "分段总计"
+    ID_TAB_MATERMGR         "物资管理"
+    ID_MATERMGR_TABLE       "物资管理"
+    ID_MATERMGR_STOCK       "库存盘点"
+    ID_MATERMGR_CHECK       "库存统计"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TAB_FINANCEMGR       "财务管理"
+    ID_FINANCEMGR_TABLE     "财务管理"
+    ID_FINANCEMGR_MGE       "收支统计"
+    ID_FINANCEMGR_SUM       "收支汇总"
+    ID_FINANCEMGR_RATE      "分析图表"
+    ID_FINANCEMGR_LOAN      "借贷计算"
+    ID_TAB_CRTSMGR          "轨道复测"
+    ID_CRTSMGR_SLAB_DAT     "基础数据"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TAB_PULLWORKMGR      "拉动生产"
+    ID_BUDGETMGR_TABLE      "计量控制"
+    ID_BUDGETMGR_REPLACE    "数据替换"
+    ID_BUDGETMGR_QTYSUM     "数量合计"
+    ID_BUDGETMGR_BUDGET     "概算汇总"
+    ID_BUDGETMGR_GUIDANCE   "指导汇总"
+    ID_STEELMGR_QTY         "钢筋数量表"
+    ID_STEELMGR_LIBRARY     "钢筋构件库"
+    ID_STEELMGR_ORDER       "钢筋订单表"
+    ID_STEELMGR_PROCESS     "钢筋加工表"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TABLE_ROAD           "路基工程"
+    ID_TABLE_BRIDGE         "桥涵工程"
+    ID_TABLE_TUNNEL         "隧道工程"
+    ID_TABLE_ORBITAL        "轨道工程"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TABLE_YARD           "站场工程"
+    ID_TABLE_TEMP           "大临工程"
+    ID_TABLE_QTY            "计算数量"
+    ID_TABLE_UP             "对上数量"
+    ID_TABLE_DOWN           "对下数量"
+    ID_TABLE_LIST           "清单数量"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TABLE_EMPLOY         "职工信息"
+    ID_TABLE_UNITS          "公司信息"
+    ID_TABLE_GOODS          "材料信息"
+    ID_TABLE_PACT           "合同信息"
+    ID_TABLE_BARN           "仓库信息"
+    ID_TABLE_CHECK          "盘点信息"
+    ID_TABLE_INSTOCK        "入库信息"
+    ID_TABLE_OUTSTOCK       "出库信息"
+    ID_TABLE_MIXSTOCK       "调库信息"
+    ID_TABLE_RETSTOCK       "退库信息"
+    ID_TABLE_MEMBER         "成员信息"
+    ID_TABLE_FUNDS          "款项信息"
+    ID_TABLE_INCOME         "收入信息"
+    ID_TABLE_OUTLAY         "支出信息"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "工具栏"
+    ID_VIEW_STATUS_BAR      "状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_MESSAGE_BAR     "消息栏"
+END
+
+STRINGTABLE
+BEGIN
+    ID_DATASET_DATRESTORE   "数据恢复"
+    ID_DATASET_DATCLEAR     "数据清空"
+    ID_USERMGR_REGUSER      "注册用户"
+    ID_USERMGR_SETUSER      "修改密码"
+    ID_USERMGR_DELUSER      "删除用户"
+    ID_USERMGR_AUTOLOGIN    "自动登录"
+    ID_USERMGR_USERINFO     "用户信息"
+    ID_PROGRAM_TASKTRACK    "任务计划"
+    ID_PROGRAM_SYSTEM       "系统工具"
+    ID_PROGRAM_METHOD       "工具插件"
+    ID_PROGRAM_CHART        "绘制图表"
+    ID_PROGRAM_REPORT       "绘制报表"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CRTSMGR_RAIL_RIDE    "轨道平顺性"
+    ID_CRTSMGR_RAIL_RATE    "轨道调整量"
+    ID_TAB_PROBLEMMGR       "缺陷整治"
+    ID_PROBLEMMGR_DAT       "基础数据"
+    ID_PROBLEMMGR_SUM       "分类统计"
+    ID_PROBLEMMGR_ALL       "总体统计"
+END
+
+STRINGTABLE
+BEGIN
+    ID_PROBLEMMGR_ROAD      "路基问题"
+    ID_PROBLEMMGR_BRIDGE    "桥涵问题"
+    ID_PROBLEMMGR_TUNNEL    "隧道问题"
+    ID_PROBLEMMGR_ORBITAL   "轨道问题"
+    ID_PROBLEMMGR_BARRIER   "声屏问题"
+    ID_PROBLEMMGR_GROUD     "接地问题"
+    ID_PROBLEMMGR_MEASURE   "精测问题"
+    ID_PROBLEMMGR_SUM_      "分类汇总"
+    ID_PROBLEMMGR_ALL_      "总体汇总"
+    ID_PROBLEMMGR_CRT       "数据图表"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TAB_EXPLOR           "我的电脑"
+    ID_EXPLOR_SEARCH        "搜索文件"
+    ID_EXPLOR_DIRROOT       "根 目 录"
+    ID_EXPLOR_DIRBACK       "上一目录"
+    ID_EXPLOR_UPLOAD        "上传文件"
+    ID_EXPLOR_DOWNLOAD      "下载文件"
+    ID_EXPLOR_DELETE        "删除文件"
+    ID_EXPLOR_FLUSH         "刷新列表"
+    ID_EXPLOR_ADDRESS       "地址栏"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CRTSMGR_SLAB_SUM     "分类汇总"
+    ID_CRTSMGR_SLAB_ALL     "分段总计"
+    ID_CRTSMGR_SLAB_CNT     "分段统计"
+    ID_CRTSMGR_SLAB_HORIZON "线路横向偏差"
+    ID_CRTSMGR_SLAB_VERTICAL "线路高程偏差"
+    ID_CRTSMGR_SLAB_MILEAGE "线路里程偏差"
+    ID_CRTSMGR_SLAB_RIDE_IN "板内平顺性"
+    ID_CRTSMGR_SLAB_RIDE_OUT "板间平顺性"
+    ID_CRTSMGR_SLAB_RATE    "数据偏差率"
+    ID_CRTSMGR_RAIL_MGE     "合并数据"
+    ID_CRTSMGR_RAIL_CAL     "计算数据"
+    ID_CRTSMGR_RAIL_PLATE   "布板数据"
+    ID_CRTSMGR_RAIL_ADJUST  "精调数据"
+    ID_CRTSMGR_RAIL_ALL     "精调汇总"
+    ID_CRTSMGR_RAIL_WFP     "挡块统计"
+    ID_CRTSMGR_RAIL_ZW6     "垫片统计"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_REPORT_ITEM_DATE_OLDER "Date: Older"
+    IDS_REPORT_ITEM_DATE_THISYEAR "Date: This year"
+    IDS_REPORT_ITEM_DATE_THISMONTH "Date: This month"
+    IDS_REPORT_ITEM_DATE_TODAY "Date: Today"
+    IDS_REPORT_ITEM_CHECKED_TRUE "Check State: Checked"
+    IDS_REPORT_ITEM_CHECKED_FALSE "Check State: Unchecked"
+    IDS_REPORT_ITEM_IMPOPRTANCE_HIGH "Importance: High"
+    IDS_REPORT_ITEM_IMPOPRTANCE_NORMAL "Importance: Normal"
+    IDS_REPORT_ITEM_IMPOPRTANCE_LOW "Importance: Low"
+    IDS_REPORT_ITEM_ATTACHMENTS_TRUE "Attachments: With Attachments"
+    IDS_REPORT_ITEM_ATTACHMENTS_FALSE "Attachments: No Attachments"
+END
+
+STRINGTABLE
+BEGIN
+    ID_REPORT_COLUMN_ALIGNMENT "对齐方式"
+    ID_REPORT_COLUMN_TEXT_ALIGNMENT_LEFT "文本靠左"
+    ID_REPORT_COLUMN_TEXT_ALIGNMENT_RIGHT "文本靠右"
+    ID_REPORT_COLUMN_TEXT_ALIGNMENT_CENTER "文本居中"
+    ID_REPORT_COLUMN_ICON_ALIGNMENT_LEFT "图标靠左"
+    ID_REPORT_COLUMN_ICON_ALIGNMENT_RIGHT "图标靠右"
+    ID_REPORT_COLUMN_ICON_ALIGNMENT_CENTER "图标居中"
+    ID_REPORT_COLUMN_ARRANGEBY "子列范围"
+    ID_REPORT_COLUMN_SHOWINGROUPS "显示组列"
+    ID_REPORT_COLUMN_HIDERECORD "隐藏行"
+    ID_REPORT_COLUMN_SWITCHSTATE "锁定状态"
+    ID_REPORT_COLUMN_COLUMNS "子列列表"
+    ID_REPORT_COLUMN_ROWNUMBER "显示行号"
+END
+
+STRINGTABLE
+BEGIN
+    ID_REPORT_COLUMN_AUTOUPDATESQL "自动更新"
+END
+
+STRINGTABLE
+BEGIN
+    ID_REPORT_SORT_ASC      "升序排序"
+    ID_REPORT_SORT_DESC     "降序排序"
+    ID_REPORT_SORT_NO       "无排序"
+    ID_REPORT_GROUP_BYFIELD "子列分组"
+    ID_REPORT_GROUP_SHOWBOX "显示分组"
+    ID_REPORT_GROUP_EXPANDALL "展开所有分组"
+    ID_REPORT_GROUP_COLLAPSEALL "折叠所有分组"
+    ID_REPORT_GROUP_EXPANDCURALL "展开单级分组"
+    ID_REPORT_GROUP_COLLAPSECURALL "折叠单级分组"
+    ID_REPORT_GROUP_TOTREE  "转化树形结构"
+END
+
+STRINGTABLE
+BEGIN
+    ID_REPORT_RECORD_EDIT   "允许编辑"
+    ID_REPORT_RECORD_ADD    "添加数据"
+    ID_REPORT_RECORD_SET    "修改数据"
+    ID_REPORT_RECORD_DEL    "删除数据"
+    ID_REPORT_RECORD_IMP    "导入数据"
+    ID_REPORT_RECORD_EXP    "导出数据"
+    ID_REPORT_RECORD_ENCODE "加密数据"
+    ID_REPORT_RECORD_DECODE "解密数据"
+    ID_REPORT_COLUMN_REMOVE "移除子列"
+    ID_REPORT_COLUMN_FILTEREDIT "数据过滤"
+    ID_REPORT_COLUMN_SUBLIST "表头列表"
+    ID_REPORT_COLUMN_AUTOBESTFIT "自动列宽"
+    ID_REPORT_COLUMN_AUTOSIZING "浮动列宽"
+    ID_REPORT_COLUMN_FREEZE "冻结子列"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GRID_CATEGORY_ACTION "Action"
+    ID_GRID_ITEM_ACTION_ID  "ID"
+    ID_GRID_ITEM_ACTION_TOOLTIP "ToolTip"
+    ID_GRID_ITEM_ACTION_CATEGORY "Category"
+    ID_GRID_ITEM_ACTION_KEY "Key"
+    ID_GRID_ITEM_ACTION_CAPTION "Caption"
+    ID_GRID_ITEM_ACTION_DESCRIPTION "Description"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GRID_CATEGORY_REPORT_PARAM "表格参数"
+    ID_GRID_ITEM_REPORT_ROWS "数据显示"
+    ID_GRID_ITEM_REPORT_EDIT "数据编辑"
+    ID_GRID_ITEM_REPORT_GROUP "分组显示"
+    ID_GRID_CATEGORY_REPORT_ATTRIBUTE "表格属性"
+    ID_GRID_ITEM_REPORT_GRID "网格模式"
+    ID_GRID_ITEM_REPORT_SELECTION "多选模式"
+    ID_GRID_ITEM_REPORT_FOUCS "子项模式"
+    ID_GRID_ITEM_REPORT_SORT "排序模式"
+    ID_GRID_ITEM_REPORT_ALIGNMENT "对齐模式"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GRID_ITEM_REPORT_COLOR "字体颜色"
+    ID_GRID_ITEM_REPORT_BKCOLOR "背景颜色"
+    ID_GRID_ITEM_REPORT_FONT "字体样式"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GRID_CATEGORY_CHART_PARAM "参数"
+    ID_GRID_ITEM_CHART_SERIES "图表系列"
+    ID_GRID_ITEM_CHART_LABELORMARK "标题/标记"
+    ID_GRID_ITEM_CHART_LABELORROTATED "标题/旋转"
+    ID_GRID_ITEM_CHART_LABEL_POSITION "标题位置"
+    ID_GRID_ITEM_CHART_SERIESGROUP "系列分组"
+    ID_GRID_ITEM_CHART_MARKER_TYPE "标记类型"
+    ID_GRID_ITEM_CHART_MARKER_SIZE "标记尺寸"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GRID_ITEM_CHART_MARKER_ANGLE "标记角度"
+    ID_GRID_ITEM_CHART_MARKER_INVERT "标记反向"
+    ID_GRID_ITEM_CHART_EXPLODED_POINTS "展开全点"
+    ID_GRID_ITEM_CHART_DOUGHNUT "环形尺寸"
+    ID_GRID_ITEM_CHART_BUBBLE_TRANPARENCY "项点透明度"
+    ID_GRID_ITEM_CHART_BUBBLE_MIN "项点最小值"
+    ID_GRID_ITEM_CHART_BUBBLE_MAX "项点最大值"
+    ID_GRID_ITEM_CHART_SERIESCNT "系列数量"
+    ID_GRID_ITEM_CHART_INTERVAL "间隔大小"
+    ID_GRID_ITEM_CHART_INTERLACED "交错/别样"
+    ID_GRID_ITEM_CHART_INTERVALSTEP "间隔步数"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GRID_ITEM_SAVE_ON_CLOSE "保存\n保存并关闭"
+    ID_GRID_ITEM_VERSION_LANGUAGE "语言\n用户自定义语言"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GRID_CATEGORY_ACTIONTAG "节点属性"
+    ID_GRID_ITEM_ACTIONTAG_DESIGNBDT "计划开始时间"
+    ID_GRID_ITEM_ACTIONTAG_DESIGNEDT "计划完成时间"
+    ID_GRID_ITEM_ACTIONTAG_DONEBDT "实际开始时间"
+    ID_GRID_ITEM_ACTIONTAG_DONEEDT "实际完成时间"
+    ID_GRID_ITEM_ACTIONTAG_ENGINEENU "工程类型"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GRID_ITEM_ACTIONTAG_ENGINEMUT "计量单位"
+    ID_GRID_ITEM_ACTIONTAG_ENGINEQTY "设计数量"
+    ID_GRID_ITEM_ACTIONTAG_ENGINEDOE "实际数量"
+    ID_GRID_ITEM_ACTIONTAG_ENGINEFIG "形象数量"
+    ID_GRID_ITEM_ACTIONTAG_LABOURENU "劳力类型"
+    ID_GRID_ITEM_ACTIONTAG_LABOURMUT "计量单位"
+    ID_GRID_ITEM_ACTIONTAG_LABOURRNK "施工队伍"
+    ID_GRID_ITEM_ACTIONTAG_LABOURQTY "劳力数量"
+    ID_GRID_ITEM_ACTIONTAG_DEVICEENU "设备类型"
+    ID_GRID_ITEM_ACTIONTAG_DEVICEMUT "计量单位"
+    ID_GRID_ITEM_ACTIONTAG_DEVICERNK "施工队伍"
+    ID_GRID_ITEM_ACTIONTAG_DEVICEQTY "设备数量"
+    ID_GRID_ITEM_ACTIONTAG_MATERENU "物资类型"
+    ID_GRID_ITEM_ACTIONTAG_MATERMUT "计量单位"
+    ID_GRID_ITEM_ACTIONTAG_MATERQTY "物资数量"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TRAYICON_BALLOON_MESSAGE "请访问我们的网站，获取更多的产品信息，包括注册信息。点击这里就可以!"
+    IDS_TRAYICON_BALLOON_TITLE "施工项目管理系统"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TRAYICON_MIX_MAX     "切换到系统托盘最小化/最大化到托盘"
+    ID_TRAYICON_SHOWDLG     "托盘图标选项"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PROTECT_MARK_AS_FINAL "标记只读"
+    IDS_CHECK_INSPECT_DOCUMENT "检查文档属性"
+    IDS_CHECK_ACCESSIBILITY "检查文档内容"
+    IDS_PROTECT_ENCRYPT     "密码口令"
+    IDS_PROPSHT_CAPTION     "SkinFramework"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BACKSTAGE_INFO       "消息"
+    ID_BACKSTAGE_RECENT     "就近"
+    ID_BACKSTAGE_NEW        "新建"
+    ID_BACKSTAGE_PRINT      "打印"
+    ID_BACKSTAGE_SAVESEND   "保存"
+    ID_BACKSTAGE_HELP       "帮助"
+END
+
+STRINGTABLE
+BEGIN
+    ID_DATABASE_TABLE       "数据库"
+    ID_DATABASE_MSSQL       "MSSQL"
+    ID_DATABASE_EXCEL       "EXCEL"
+    ID_DATABASE_ACCESS      "ACCESS"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FONT_FACE            "字型"
+    ID_FONT_SIZE            "字号"
+    ID_FONT_OTHER           "其他字体样式(&F)..."
+    ID_FONT_GROW            "增大字体"
+    ID_FONT_SHRINK          "缩小字体"
+    ID_FONT_CLEAR           "清除格式"
+    ID_FONT_BOLD            "黑体"
+    ID_FONT_ITALIC          "斜体"
+    ID_FONT_UNDERLINE       "下划线"
+    ID_FONT_BORDERS         "边框线"
+    ID_FONT_SUBSCRIPT       "下标"
+    ID_FONT_SUPERSCRIPT     "上标"
+    ID_FONT_CHARFIELD       "显示隐藏拼音字段"
+    ID_FONT_FACECOLOR       "字体颜色"
+    ID_FONT_BACKCOLOR       "以不同颜色突出显示文本"
+END
+
+STRINGTABLE
+BEGIN
+    ID_STYLES_CONDITION     "条件格式"
+    ID_STYLES_FORMAT        "套用表格样式"
+    ID_STYLES_CELL          "单元格样式"
+    ID_CELL_INSERT          "插入"
+    ID_CELL_DELETE          "删除"
+    ID_CELL_FORMAT          "格式"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NUMBER_FORMAT        "数字格式"
+    ID_NUMBER_ACCOUNTANT    "会计数字格式"
+    ID_NUMBER_PERCENT       "百分比样式"
+    ID_NUMBER_KILOBITGAP    "千位分隔样式"
+    ID_NUMBER_INPRECISION   "增加小数位数"
+    ID_NUMBER_ENPRECISION   "减少小数位数"
+    ID_NRFMT_GENERAL        "常规|无特定格式"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MODIFY_SUM           "自动合计"
+    ID_MODIFY_FILL          "填充"
+    ID_MODIFY_CLEAR         "清除"
+    ID_MODIFY_SORTFILTER    "排序和筛选"
+    ID_MODIFY_FINDSELECT    "查找和选择"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RIBBON_EXPAND        "单击按钮显示选型卡.\n展开选项卡"
+    ID_RIBBON_MINIMIZE      "只显示选项卡名称.\n最小化选项卡"
+    ID_RIBBON_SWITCH_REPORTVIEW "单击按钮切换数据视图.\n数据视图"
+    ID_RIBBON_SWITCH_CHARTVIEW "单击按钮切换图表视图.\n图表视图"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GALLERY_FONT_FACE    "字型"
+    ID_GALLERY_FONT_SIZE    "字高"
+    ID_GALLERY_SHAPES       "图形"
+    ID_GALLERY_STYLES_FORMAT "样式"
+    ID_GALLERY_SEARCH_DATAPART "分段数据"
+    ID_GALLERY_CONDITION_HIGHLIGHT "突出显示单元格规则(&H)"
+    ID_GALLERY_CONDITION_ITEMSELECT "项目选取规则(&T)"
+    ID_GALLERY_CONDITION_DATABARS "数据条(&D)"
+    ID_GALLERY_CONDITION_CLRVALEUR "色阶(&S)"
+    ID_GALLERY_CONDITION_ICONLIST "图标集(&I)"
+END
+
+STRINGTABLE
+BEGIN
+    ID_ALIGNMENT_UP         "顶端对齐"
+    ID_ALIGNMENT_MIDDLE     "中间对齐"
+    ID_ALIGNMENT_DOWN       "底端对齐"
+    ID_ALIGNMENT_DIRECT     "方向"
+    ID_ALIGNMENT_SORT       "排序"
+    ID_ALIGNMENT_LEFT       "左对齐"
+    ID_ALIGNMENT_CENTER     "居中"
+    ID_ALIGNMENT_RIGHT      "右对齐"
+    ID_ALIGNMENT_DECREASEINDENT "减小缩进量"
+    ID_ALIGNMENT_INCREASEINDENT "增加缩进量"
+    ID_ALIGNMENT_WRAP       "自动换行"
+    ID_ALIGNMENT_MERGE      "合并单元格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NRFMT_NUMBER         "数字|123.00"
+    ID_NRFMT_CURRENCY       "货币|￥123.00"
+    ID_NRFMT_ACCOUNTANT     "会计专用|￥123.00"
+    ID_NRFMT_SHORTDATE      "短日期|2017/10/1"
+    ID_NRFMT_LONGDATE       "长日期|2017年10月1日"
+    ID_NRFMT_TIME           "时间|0:00:00"
+    ID_NRFMT_PERCENT        "百分比|12300.00%"
+    ID_NRFMT_FRACTION       "分数|123"
+    ID_NRFMT_SCIENCE        "科学计数|1.23E+02"
+    ID_NRFMT_TEXT           "文本|123"
+    ID_NRFMT_OTHER          "其他数字格式(&M)..."
+END
+
+STRINGTABLE
+BEGIN
+    ID_TAB_HOME             "开始"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GROUP_DATABASE       "数据库"
+    ID_GROUP_DATABASE_OPTION "数据库"
+    ID_GROUP_CLIPBOARD      "剪切板"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GROUP_CLIPBOARD_OPTION "剪贴板"
+    ID_GROUP_FONT           "字体"
+    ID_GROUP_FONT_OPTION    "字体"
+    ID_GROUP_ALIGNMENT      "对齐方式"
+    ID_GROUP_ALIGNMENT_OPTION "对齐方式"
+    ID_GROUP_NUMBER         "数字"
+    ID_GROUP_NUMBER_OPTION  "数字"
+    ID_GROUP_STYLES         "样式"
+    ID_GROUP_STYLES_OPTION  "样式"
+    ID_GROUP_CELL           "单元格"
+    ID_GROUP_CELL_OPTION    "单元格"
+    ID_GROUP_MODIFY         "编辑"
+    ID_GROUP_MODIFY_OPTION  "编辑"
+    ID_GROUP_DATASET        "数据库"
+    ID_GROUP_DATASET_OPTION "数据库"
+    ID_GROUP_SHAPES         "图形"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GROUP_SHAPES_OPTION  "图形"
+    ID_GROUP_USERMGR        "用户管理"
+    ID_GROUP_USERMGR_OPTION "用户管理"
+    ID_GROUP_PROGRAM        "应用程序"
+    ID_GROUP_PROGRAM_OPTION "应用程序"
+    ID_GROUP_POINTSMGR      "专业类别"
+    ID_GROUP_POINTSMGR_OPTION "专业类别"
+    ID_GROUP_REPORT_SET     "数据报表"
+    ID_GROUP_REPORT_SET_OPTION "数据报表"
+    ID_GROUP_REPORT_MODIFY  "报表编辑"
+    ID_GROUP_REPORT_MODIFY_OPTION "报表编辑"
+    ID_GROUP_COSTMGR        "项目成本"
+    ID_GROUP_COSTMGR_OPTION "项目成本"
+    ID_GROUP_MATERMGR       "物资设备"
+    ID_GROUP_MATERMGR_OPTION "物资设备"
+    ID_GROUP_CRTSMGR_SLAB   "轨道板复测"
+END
+
+STRINGTABLE
+BEGIN
+    ID_GROUP_CRTSMGR_SLAB_OPTION "轨道板复测"
+    ID_GROUP_CRTSMGR_RAIL   "轨道精调"
+    ID_GROUP_CRTSMGR_RAIL_OPTION "轨道精调"
+    ID_GROUP_PROBLEMMGR     "克缺整治"
+    ID_GROUP_PROBLEMMGR_OPTION "克缺整治"
+    ID_GROUP_FINANCEMGR     "财务管理"
+    ID_GROUP_FINANCEMGR_OPTION "财务管理"
+    ID_GROUP_EXPLOR         "资源搜索"
+    ID_GROUP_EXPLOR_OPTION  "资源搜索"
+    ID_GROUP_BUDGETMGR      "计量系统"
+    ID_GROUP_BUDGETMGR_OPTION "计量系统"
+    ID_GROUP_STEELMGR       "钢筋系统"
+    ID_GROUP_STEELMGR_OPTION "钢筋系统"
+    ID_GROUP_SEARCH         "工点查询"
+    ID_GROUP_SEARCH_OPTION  "工点查询"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CONDITION_HIGHLIGHT  "突出显示单元格规则(&H)"
+    ID_CONDITION_ITEMSELECT "项目选取规则(&T)"
+    ID_CONDITION_DATABARS   "数据条(&D)"
+    ID_CONDITION_CLRVALEUR  "色阶(&S)"
+    ID_CONDITION_ICONLIST   "图标集(&I)"
+    ID_CONDITION_CLEAR      "清除单元格的规则(&R)..."
+    ID_CONDITION_LARGE      "大于(&G)..."
+    ID_CONDITION_SMALL      "小于(&L)..."
+    ID_CONDITION_BETWEEN    "介于(&B)..."
+    ID_CONDITION_EQUAL      "等于(&E)..."
+END
+
+STRINGTABLE
+BEGIN
+    ID_CONDITION_PURPLE     "紫色数据条"
+    ID_CONDITION_GYR        "绿、黄、红色阶"
+    ID_CONDITION_RYG        "红、黄、绿色阶"
+    ID_CONDITION_BYR        "蓝、黄、红色阶"
+    ID_CONDITION_RYB        "红、黄、蓝色阶"
+    ID_CONDITION_YR         "黄、红色阶"
+    ID_CONDITION_RY         "红、黄色阶"
+    ID_CONDITION_YG         "黄、绿色阶"
+    ID_CONDITION_GY         "绿、黄色阶"
+    ID_CONDITION_NEW        "新建规则(&N)"
+    ID_CONDITION_CLEARCELL  "清除所有单元格的规则(&T)..."
+    ID_CONDITION_CLEARSHEET "清除整个工作表的规则(&P)..."
+    ID_CONDITION_CLEARTABLE "清除此表的规则(&T)..."
+END
+
+STRINGTABLE
+BEGIN
+    ID_CONDITION_CLEARPIVOT "清除此数据透视表的规则(&P)..."
+    ID_CONDITION_MANAGE     "管理规则(&R)"
+    ID_CONDITION_OTHERSHOW  "其他规则(&M)..."
+    ID_CONDITION_OTHERITEM  "其他规则(&M)..."
+    ID_CONDITION_OTHERORDER "其他规则(&M)..."
+    ID_CONDITION_OTHERCOLOR "其他规则(&M)..."
+    ID_CONDITION_OTHERICON  "其他规则(&M)..."
+END
+
+STRINGTABLE
+BEGIN
+    ID_CONDITION_TEXT       "文本包含(&T)..."
+    ID_CONDITION_DATE       "发生日期(&I)..."
+    ID_CONDITION_REPATE     "重复值(&D)..."
+    ID_CONDITION_MAX10      "值最大的 10 项(&T)..."
+    ID_CONDITION_MAX10P     "值最大的 10% 项(&P)..."
+    ID_CONDITION_MIN10      "值最小的 10 项(&B)..."
+    ID_CONDITION_MIN10P     "值最小的 10% 项(&O)..."
+    ID_CONDITION_UPAVERAGE  "高于平均值(&A)..."
+    ID_CONDITION_DOWNAVERAGE "低于平均值(&V)..."
+    ID_CONDITION_BLUE       "蓝色数据条"
+    ID_CONDITION_GREEN      "绿色数据条"
+    ID_CONDITION_RED        "红色数据条"
+    ID_CONDITION_YELLOW     "黄色数据条"
+    ID_CONDITION_ORANGE     "橙色数据条"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\RibbonReport.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\RibbonReport.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

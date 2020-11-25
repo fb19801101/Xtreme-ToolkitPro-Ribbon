@@ -1,0 +1,82 @@
+-- =========================================
+-- Create FileTable template
+-- =========================================
+USE ProjectManage
+GO
+
+IF OBJECT_ID('本级文件', 'U') IS NOT NULL
+  DROP TABLE 本级文件
+GO
+CREATE TABLE 本级文件 AS FILETABLE
+WITH
+(
+  FILETABLE_DIRECTORY = '本级文件',
+  FILETABLE_COLLATE_FILENAME = database_default
+)
+GO
+
+IF OBJECT_ID('程序文件', 'U') IS NOT NULL
+  DROP TABLE 程序文件
+GO
+CREATE TABLE 程序文件 AS FILETABLE
+WITH
+(
+  FILETABLE_DIRECTORY = '程序文件',
+  FILETABLE_COLLATE_FILENAME = database_default
+)
+GO
+
+IF OBJECT_ID('公司文件', 'U') IS NOT NULL
+  DROP TABLE 公司文件
+GO
+CREATE TABLE 公司文件 AS FILETABLE
+WITH
+(
+  FILETABLE_DIRECTORY = '公司文件',
+  FILETABLE_COLLATE_FILENAME = database_default
+)
+GO
+
+IF OBJECT_ID('临时文件', 'U') IS NOT NULL
+  DROP TABLE 临时文件
+GO
+CREATE TABLE 临时文件 AS FILETABLE
+WITH
+(
+  FILETABLE_DIRECTORY = '临时文件',
+  FILETABLE_COLLATE_FILENAME = database_default
+)
+GO
+
+IF OBJECT_ID('设计文件', 'U') IS NOT NULL
+  DROP TABLE 设计文件
+GO
+CREATE TABLE 设计文件 AS FILETABLE
+WITH
+(
+  FILETABLE_DIRECTORY = '设计文件',
+  FILETABLE_COLLATE_FILENAME = database_default
+)
+GO
+
+IF OBJECT_ID('施工图纸', 'U') IS NOT NULL
+  DROP TABLE 施工图纸
+GO
+CREATE TABLE 施工图纸 AS FILETABLE
+WITH
+(
+  FILETABLE_DIRECTORY = '施工图纸',
+  FILETABLE_COLLATE_FILENAME = database_default
+)
+GO
+
+IF OBJECT_ID('施工文件', 'U') IS NOT NULL
+  DROP TABLE 施工文件
+GO
+CREATE TABLE 施工文件 AS FILETABLE
+WITH
+(
+  FILETABLE_DIRECTORY = '施工文件',
+  FILETABLE_COLLATE_FILENAME = database_default
+)
+GO

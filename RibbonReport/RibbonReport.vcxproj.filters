@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{00a8dc1f-2f3e-4a7d-88d4-1e5d61381bb8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{4da033e6-c29e-4bf3-96e2-751c7741351c}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{06a045c0-b3bb-4d6b-8629-e1190751d0ca}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Styles">
+      <UniqueIdentifier>{75a367c2-61c4-4ea6-ba3b-f4148694d9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CreditStatic">
+      <UniqueIdentifier>{33c58789-fbc1-4d0b-a519-cdff4e41a099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Explorer">
+      <UniqueIdentifier>{f8458e0d-d2c9-4b06-aa92-1576c115f1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Ribbon">
+      <UniqueIdentifier>{9dc81974-aa19-4b74-8277-11f1a7715c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TaskTrack">
+      <UniqueIdentifier>{2cbe6b13-07c8-4a74-aaa5-66755cd03404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CreditStatic">
+      <UniqueIdentifier>{e6ab26cb-bc8c-4604-b208-bd232cd06327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Explorer">
+      <UniqueIdentifier>{d4552594-6c6d-4622-a95a-3f6301254805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Ribbon">
+      <UniqueIdentifier>{01a74ce5-537c-47f1-9ec5-ba76e5944acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TaskTrack">
+      <UniqueIdentifier>{a4f1f039-d7de-4651-959c-d4e88276cc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Report">
+      <UniqueIdentifier>{d4461d92-d638-467e-8ac2-a73a842eeb20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Report">
+      <UniqueIdentifier>{c7fb81bd-6f5d-4dcb-bf1b-d7247418d48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Styles">
+      <UniqueIdentifier>{286d0944-4806-4e07-a37c-1354a8e3aa3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChartView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAbout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLogin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgReg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgRegUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetPwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTrayIcon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneProperties.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyItemFlags.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonReport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonReportDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditStatic\CreditStatic.h">
+      <Filter>头文件\CreditStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditStatic\HtmlCtrl.h">
+      <Filter>头文件\CreditStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditStatic\HyperLink.h">
+      <Filter>头文件\CreditStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="Explorer\DlgTaskPanel.h">
+      <Filter>头文件\Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="Explorer\SearchView.h">
+      <Filter>头文件\Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="Explorer\ShellListView.h">
+      <Filter>头文件\Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="Explorer\ShellTreeView.h">
+      <Filter>头文件\Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskTrack\DlgMarkerProperties.h">
+      <Filter>头文件\TaskTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskTrack\DlgTimeLineProperties.h">
+      <Filter>头文件\TaskTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskTrack\TaskTrackView.h">
+      <Filter>头文件\TaskTrack</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\BackstagePageHelp.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\BackstagePageInfo.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\BackstagePagePrint.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\BackstagePageRecent.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\BackstagePageSave.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\BackstagePageSaveEmail.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\BackstagePageSaveWeb.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\CustomizePageGeneral.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\GalleryItems.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\CustomizePageQuickAccessToolbar.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbon\CustomizePageRibbon.h">
+      <Filter>头文件\Ribbon</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonReportView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\DlgDragDrop.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\DlgFormula.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\DlgTreeEdit.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\MergeView.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\PropertiesView.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\PropertyItems.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\ReportGeneratorView.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\ReportRecordPaintManager.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\ReportRecordView.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneRibbon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\DlgPropertyGrid.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\ReportRecord.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\PerfomanceView.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\ReportFrame.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMethod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Report\ReportListBoxControl.h">
+      <Filter>头文件\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinPropertyPageThemes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinPropertySheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WebHtmlView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLoan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneBudget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeCtrlAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PanePartItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PanePartItemSys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLoadPwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChartView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAbout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLogin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgReg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgRegUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetPwd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTrayIcon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneProperties.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyItemFlags.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonReport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonReportDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditStatic\CreditStatic.cpp">
+      <Filter>源文件\CreditStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditStatic\HtmlCtrl.cpp">
+      <Filter>源文件\CreditStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditStatic\HyperLink.cpp">
+      <Filter>源文件\CreditStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="Explorer\DlgTaskPanel.cpp">
+      <Filter>源文件\Explorer</Filter>
+    </ClCompile>
+    <ClCompile Include="Explorer\SearchView.cpp">
+      <Filter>源文件\Explorer</Filter>
+    </ClCompile>
+    <ClCompile Include="Explorer\ShellListView.cpp">
+      <Filter>源文件\Explorer</Filter>
+    </ClCompile>
+    <ClCompile Include="Explorer\ShellTreeView.cpp">
+      <Filter>源文件\Explorer</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskTrack\DlgMarkerProperties.cpp">
+      <Filter>源文件\TaskTrack</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskTrack\DlgTimeLineProperties.cpp">
+      <Filter>源文件\TaskTrack</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskTrack\TaskTrackView.cpp">
+      <Filter>源文件\TaskTrack</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\BackstagePageHelp.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\BackstagePageInfo.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\BackstagePagePrint.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\BackstagePageRecent.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\BackstagePageSave.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\BackstagePageSaveEmail.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\BackstagePageSaveWeb.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\CustomizePageGeneral.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\GalleryItems.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\CustomizePageQuickAccessToolbar.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbon\CustomizePageRibbon.cpp">
+      <Filter>源文件\Ribbon</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonReportView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WebHtmlView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\DlgDragDrop.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\DlgFormula.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\DlgTreeEdit.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\MergeView.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\PropertiesView.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\PropertyItems.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\ReportGeneratorView.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\ReportRecordPaintManager.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\ReportRecordView.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneRibbon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\DlgPropertyGrid.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\ReportRecord.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\PerfomanceView.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\ReportFrame.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMethod.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\ReportListBoxControl.cpp">
+      <Filter>源文件\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinPropertyPageThemes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinPropertySheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLoan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneBudget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeCtrlAction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PanePartItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PanePartItemSys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLoadPwd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RibbonReport.rc">
+      <Filter>源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Source\Styles\dll\x86\Office2007.dll">
+      <Filter>资源文件\Styles</Filter>
+    </None>
+    <None Include="..\..\..\Source\Styles\dll\x86\Office2010.dll">
+      <Filter>资源文件\Styles</Filter>
+    </None>
+    <None Include="..\..\..\Source\Styles\dll\x86\Windows7.dll">
+      <Filter>资源文件\Styles</Filter>
+    </None>
+    <None Include="res\Constraints.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\crcc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Filter.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\PaneIcons.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\PaneProperties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\PaneRibbon.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ScreenPreview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TaskList.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ToolBar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\watermark.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\12.jpg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DResize.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HResize.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Move.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VResize.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GroupPopup.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Key.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RibbonReport.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RibbonReportDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Select.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\trayfale.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\traygray.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\traytrue.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Warning.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Backstage.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BackstagePageHelp.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BackstagePageSave.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Budgetmgr.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BudgetmgrTable.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CheckForIssues.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Costmgr.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CostmgrTable.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CtrsmgrSlab.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DataBase.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DataFilter.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Dataset.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Explor.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Financemgr.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\FinancemgrTable.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\FontBorders.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GalleryConditionIconList.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GalleryNumber.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GalleryShapes.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GalleryStylesCell.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GalleryStylesCondition.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GalleryStylesFormat.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GroupAlignment.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GroupCell.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GroupClipboard.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GroupDatabase.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GroupFont.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GroupModify.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GroupNumber.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GroupStyles.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LargeIcons.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ManageVersions.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Matermgr.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MatermgrTable.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Method.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\OptionsIconGeneral.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\OptionsIconQuickAccess.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Pointsmgr.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\PointsmgrTable.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Print.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Problemmgr.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Program.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ProtectDocument.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Reportmgr.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RibbonGear.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RibbonGroups.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RibbonMinimize.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Shell.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SystemMenuLarge.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ToolTipGroupOption.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ToolTipReport.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Usermgr.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Zxing.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RibbonReport.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Readme.rtf">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ActionLibrary.xml">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BuilderFile.xml">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\Codejock.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\Office2007.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\Office2010.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\Vista.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\WinXP.Luna.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\WinXP.Royale.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Styles\Zune.msstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\vc100\x86\Office2007.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\vc100\x86\Office2010.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\vc100\x86\Windows7.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Styles\Styles.txt">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
